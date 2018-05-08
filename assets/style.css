@@ -159,7 +159,7 @@ ul {
     border-width: 2px;
     border-color: #b3b3b3;
     border-radius: 5px;
-    border-top: none;
+/*    border-top: none;*/
 }
 
 li {
@@ -176,7 +176,7 @@ li {
 }
 
 #top-li {
-    border-radius: 5px;
+    border-top: none;
 }
 
 .vert-line-menu {
