@@ -41,7 +41,7 @@ body {
     height: 6vw;
     border-radius: 50%;
     border-style: solid;
-    border-width: 2px;
+    border-width: .12vw;
     border-color: #b3b3b3;
         background-image: url('img/fortyfive-icon1.png');
     background-repeat: no-repeat;
@@ -51,8 +51,8 @@ body {
 
 .vert-line {
         position: absolute;
-    margin: 7.8vw 0 0 0;
-    width: 2px;
+    margin: 7.7vw 0 0 0;
+    width: .147vw;
     height: 2.5vw;
     background-color: #b3b3b3;
 }
@@ -61,7 +61,7 @@ body {
             position: absolute;
     margin: 10.2vw 0 0 0;
     width: 35vw;
-    height: 2px;
+    height: .12vw;
     background-color: #b3b3b3;
 }
 
@@ -156,7 +156,7 @@ align-self: flex-start;
 ul {
     width: 14vw;
     border: solid;
-    border-width: 2px;
+    border-width: .12vw;
     border-color: #b3b3b3;
     border-radius: 5px;
 /*    border-top: none;*/
@@ -171,7 +171,7 @@ li {
 /*    line-height: 1.5rem;*/
     width: 100%;
     border-top: solid;
-    border-width: 2px;
+    border-width: .12vw;
     border-color: #b3b3b3;
 }
 
@@ -182,7 +182,7 @@ li {
 .vert-line-menu {
         position: relative;
     margin: 0 auto 0 auto;
-    width: 2px;
+    width: .12vw;
     height: 2.5vw;
     background-color: #b3b3b3;
 }
@@ -191,6 +191,6 @@ li {
             position: absolute;
     margin: 0;
     width: 35vw;
-    height: 2px;
+    height: .12vw;
     background-color: #b3b3b3;
 }
