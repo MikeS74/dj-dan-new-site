@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:500');
 
 body {
-        color: #b3b3b3;
+    color: #b3b3b3;
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
 }
@@ -31,7 +31,7 @@ body {
     margin: 0 auto 0 auto;
     width: 47.5vw;
     height: 100%;
-/*    background-color: aliceblue;*/
+    /*    background-color: aliceblue;*/
 }
 
 .fortyfive-logo {
@@ -43,14 +43,14 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: #b3b3b3;
-        background-image: url('img/fortyfive-icon2.png');
+    background-image: url('img/fortyfive-icon2.png');
     background-repeat: no-repeat;
     background-size: 6.6vw;
     background-position: center;
 }
 
 .vert-line {
-        position: absolute;
+    position: absolute;
     margin: 7.7vw 0 0 0;
     width: 1px;
     height: 2.5vw;
@@ -58,7 +58,7 @@ body {
 }
 
 .horiz-line {
-            position: absolute;
+    position: absolute;
     margin: 10.2vw 0 0 0;
     width: 35vw;
     height: 1px;
@@ -66,11 +66,11 @@ body {
 }
 
 #djdan-logo {
-        position: absolute;
+    position: absolute;
     margin: 11.5vw 0 0 0;
-        width: 35vw;
+    width: 35vw;
     height: 8vw;
-            background-image: url('img/dan-logo1.png');
+    background-image: url('img/dan-logo1.png');
     background-repeat: no-repeat;
     background-size: 18.6vw;
     background-position: center;
@@ -80,7 +80,7 @@ body {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
-/*    position: absolute;*/
+    /*    position: absolute;*/
     margin: 20.5vw 0 0 0;
     width: 35vw;
     height: 4vw;
@@ -88,10 +88,10 @@ body {
 
 #fb {
     order: 0;
-/*    position: absolute;*/
-   width: 3vw;
+    /*    position: absolute;*/
+    width: 3vw;
     height: 3vw;
-            background-image: url('img/fb-icon1.png');
+    background-image: url('img/fb-icon1.png');
     background-repeat: no-repeat;
     background-size: 3vw;
     background-position: center;
@@ -99,10 +99,10 @@ body {
 
 #ig {
     order: 1;
-/*    position: absolute;*/
-   width: 3vw;
+    /*    position: absolute;*/
+    width: 3vw;
     height: 3vw;
-            background-image: url('img/ig-icon1.png');
+    background-image: url('img/ig-icon1.png');
     background-repeat: no-repeat;
     background-size: 3vw;
     background-position: center;
@@ -110,10 +110,10 @@ body {
 
 #sc {
     order: 2;
-/*    position: absolute;*/
-   width: 4vw;
+    /*    position: absolute;*/
+    width: 4vw;
     height: 3vw;
-            background-image: url('img/sc-icon1.png');
+    background-image: url('img/sc-icon1.png');
     background-repeat: no-repeat;
     background-size: 4vw;
     background-position: center;
@@ -121,36 +121,36 @@ body {
 
 #tw {
     order: 3;
-/*    position: absolute;*/
-   width: 3.5vw;
+    /*    position: absolute;*/
+    width: 3.5vw;
     height: 3vw;
-            background-image: url('img/tw-icon1.png');
+    background-image: url('img/tw-icon1.png');
     background-repeat: no-repeat;
     background-size: 3.5vw;
     background-position: center;
 }
 
 #menu-cont {
-        position: absolute;
+    position: absolute;
     margin: 24.7vw 0 0 0;
-/*    font-size: 1.3rem;*/
+    /*    font-size: 1.3rem;*/
     font-size: 1.4vw;
     letter-spacing: .05rem;
     display: inline-flex;
-/*    justify-content: center;*/
+    /*    justify-content: center;*/
     width: 35vw;
     height: 20%;
 }
 
 #menu1 {
     margin-right: auto;
-align-self: flex-start;
-    
+    align-self: flex-start;
+
 }
 
 #menu2 {
     margin-left: auto;
-align-self: flex-start;
+    align-self: flex-start;
 }
 
 ul {
@@ -159,16 +159,16 @@ ul {
     border-width: 1px;
     border-color: #b3b3b3;
     border-radius: 5px;
-/*    border-top: none;*/
+    /*    border-top: none;*/
 }
 
 li {
     padding-top: .6vw;
-/*    margin-top: 1.2vw;*/
+    /*    margin-top: 1.2vw;*/
     margin-bottom: .6vw;
     text-align: center;
-/*    vertical-align: top;*/
-/*    line-height: 1.5rem;*/
+    /*    vertical-align: top;*/
+    /*    line-height: 1.5rem;*/
     width: 100%;
     border-top: solid;
     border-width: 1px;
@@ -181,7 +181,7 @@ li {
 }
 
 .vert-line-menu {
-        position: relative;
+    position: relative;
     margin: 0 auto 0 auto;
     width: 1px;
     height: 2.5vw;
@@ -189,7 +189,7 @@ li {
 }
 
 .horiz-line-menu {
-            position: absolute;
+    position: absolute;
     margin: 0;
     width: 35vw;
     height: 1px;
@@ -202,7 +202,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+
 }
 
 #bio-pg {
