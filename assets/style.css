@@ -207,7 +207,7 @@ li {
 #bio-pg {
     z-index: 1;
     position: absolute;
-    margin: 3vw auto 0 auto;
+    margin: 2vw auto 0 auto;
     width: 50vw;
     height: 1440px;
     border-radius: .8vw;
@@ -229,7 +229,7 @@ hr {border: none;
     background-color: #b3b3b3;
 }
 .sect-header {
-    margin: 3vw 1vw 1vw 1vw;
+    margin: 1.3vw 1vw 1vw 1vw;
     font-size: 1.9vw
 }
 
@@ -238,7 +238,7 @@ hr {border: none;
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1vw;
+    padding: .5vw 1vw 1vw 1vw;
 }
 
 #dan-pic {
