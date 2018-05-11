@@ -223,11 +223,13 @@ li {
     cursor: pointer;
 }
 
-hr {border: none;
+hr {
+    border: none;
     margin: 1vw 1vw 1vw 1vw;
     height: 1px;
     background-color: #b3b3b3;
 }
+
 .sect-header {
     margin: 1.3vw 1vw 1vw 1vw;
     font-size: 1.9vw
