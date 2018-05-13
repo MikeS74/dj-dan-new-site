@@ -169,8 +169,13 @@ li {
     cursor: pointer;
 }
 
-li:hover {
+li p {
+    transition: all .2s ease-in-out;
+}
+
+li p:hover {
     color: white;
+    transform: scale(1.1);
 }
 
 .top-li {
