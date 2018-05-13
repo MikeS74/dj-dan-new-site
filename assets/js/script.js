@@ -2,6 +2,7 @@ $(document).ready(function () {
 
     //ORIG FADE IN
     $("#bio-pg").hide();
+    $("#tour-pg").hide();
     $(".home-container").hide();
     $("li").hide();
 
@@ -58,9 +59,28 @@ $(document).ready(function () {
         homeContFadeOut();
     });
 
+    $("#tour-link").on("click", function () {
+        $("#tour-pg").delay("slow").fadeIn(500);
+        homeContFadeOut();
+    });
+
     $(".close-button").on("click", function () {
         menuFadeIns();
-        $("#bio-pg").fadeOut(500);
+        $("#bio-pg, #tour-pg").fadeOut(500);
         homeContFadeIn();
     });
+
+    //TOUR CALENDAR SCRIPT
+//    jQuery.loadScript = function (url, callback) {
+//        jQuery.ajax({
+//            url: url,
+//            dataType: 'script',
+//            success: callback,
+//            async: true
+//        });
+//    }
+//    $.loadScript('//widget.songkick.com/306806/widget.js', function () {
+//        console.log("Songkick Script Loaded!");
+//    });
+    //////////////////////
 });
