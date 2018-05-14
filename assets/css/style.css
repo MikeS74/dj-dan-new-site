@@ -211,7 +211,7 @@ li p:hover {
 
 #bio-pg, #tour-pg, #gallery-pg {
     z-index: 1;
-    position: absolute;
+/*    position: absolute;*/
     margin: 2vw auto 0 auto;
     width: 50vw;
     height: auto;
@@ -220,19 +220,17 @@ li p:hover {
 }
 
 .close-button {
-    float: right;
+    position: relative;
+    left: 47vw;
+/*    float: right;*/
     margin: .5vw;
     font-size: 1.79vw;
-    background-color: #414141;
     border-radius: 50%;
     cursor: pointer;
 }
 
-hr {
-    border: none;
-    margin: 1vw 1vw 1vw 1vw;
-    height: 1px;
-    background-color: #b3b3b3;
+.close-button:hover {
+    background-color: #414141;
 }
 
 .sect-header {
@@ -246,8 +244,15 @@ hr {
     /*    font-family: 'Cabin', sans-serif;*/
     /*    font-family: 'Maven Pro', sans-serif;*/
     font-weight: 500;
-    margin: 1.3vw 1vw 1vw 1vw;
+    margin: -.7vw 1vw 1vw 1vw;
     font-size: 1.9vw
+}
+
+hr {
+    border: none;
+    margin: 1vw 1vw 1vw 1vw;
+    height: 1px;
+    background-color: #b3b3b3;
 }
 
 /*BIO CONTENT//////////////////////////////////////////*/
