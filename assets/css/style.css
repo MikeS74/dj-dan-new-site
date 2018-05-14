@@ -209,7 +209,7 @@ li p:hover {
     justify-content: center;
 }
 
-#bio-pg, #tour-pg {
+#bio-pg, #tour-pg, #gallery-pg {
     z-index: 1;
     position: absolute;
     margin: 2vw auto 0 auto;
@@ -252,7 +252,7 @@ hr {
 
 /*BIO CONTENT//////////////////////////////////////////*/
 
-#bio-cont, #tour-cont {
+#bio-cont, #tour-cont, #gallery-cont {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;

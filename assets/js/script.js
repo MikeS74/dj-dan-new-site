@@ -3,6 +3,7 @@ $(document).ready(function () {
     //ORIG FADE IN
     $("#bio-pg").hide();
     $("#tour-pg").hide();
+    $("#gallery-pg").hide();
     $(".home-container").hide();
     $("li").hide();
 
@@ -63,10 +64,15 @@ $(document).ready(function () {
         $("#tour-pg").delay("slow").fadeIn(500);
         homeContFadeOut();
     });
+    
+        $("#gal-link").on("click", function () {
+        $("#gallery-pg").delay("slow").fadeIn(500);
+        homeContFadeOut();
+    });
 
     $(".close-button").on("click", function () {
         menuFadeIns();
-        $("#bio-pg, #tour-pg").fadeOut(500);
+        $("#bio-pg, #tour-pg, #gallery-pg").fadeOut(500);
         homeContFadeIn();
     });
 
