@@ -7,16 +7,16 @@ body {
 #bkgd {
     width: 100%;
     height: 1440px;
-    background-image: url('img/bkgd-pattern1.png');
+    background-image: url('../img/bkgd-pattern1.png');
     background-repeat: repeat;
 /*    background-size: auto;*/
-    background-image: url('img/bkgd-pattern1.png'),
+    background-image: url('../img/bkgd-pattern1.png'),
     -webkit-linear-gradient(left, #89253e, #3a6186);
-    background-image: url('img/bkgd-pattern1.png'),
+    background-image: url('../img/bkgd-pattern1.png'),
     -moz-linear-gradient(left, #89253e, #3a6186);
-    background-image: urlurl('img/bkgd-pattern1.png'),
+    background-image: urlurl('../img/bkgd-pattern1.png'),
     -o-linear-gradient(left, #89253e, #3a6186);
-    background-image: urlurl('img/bkgd-pattern1.png'),
+    background-image: urlurl('../img/bkgd-pattern1.png'),
     linear-gradient(to right, #89253e, #3a6186);
     background-blend-mode: overlay;
 }
@@ -40,7 +40,7 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: #b3b3b3;
-    background-image: url('img/fortyfive-icon2.png');
+    background-image: url('../img/fortyfive-icon2.png');
     background-repeat: no-repeat;
     background-size: 6.6vw;
     background-position: center;
@@ -67,7 +67,7 @@ body {
     margin: 11.5vw 0 0 0;
     width: 35vw;
     height: 8vw;
-    background-image: url('img/dan-logo1.png');
+    background-image: url('../img/dan-logo1.png');
     background-repeat: no-repeat;
     background-size: 18.6vw;
     background-position: center;
@@ -86,7 +86,7 @@ body {
     order: 0;
     width: 3vw;
     height: 3vw;
-    background-image: url('img/fb-icon1.png');
+    background-image: url('../img/fb-icon1.png');
     background-repeat: no-repeat;
     background-size: 3vw;
     background-position: center;
@@ -96,7 +96,7 @@ body {
     order: 1;
     width: 3vw;
     height: 3vw;
-    background-image: url('img/ig-icon1.png');
+    background-image: url('../img/ig-icon1.png');
     background-repeat: no-repeat;
     background-size: 3vw;
     background-position: center;
@@ -106,7 +106,7 @@ body {
     order: 2;
     width: 4vw;
     height: 3vw;
-    background-image: url('img/sc-icon1.png');
+    background-image: url('../img/sc-icon1.png');
     background-repeat: no-repeat;
     background-size: 4vw;
     background-position: center;
@@ -116,7 +116,7 @@ body {
     order: 3;
     width: 3.5vw;
     height: 3vw;
-    background-image: url('img/tw-icon1.png');
+    background-image: url('../img/tw-icon1.png');
     background-repeat: no-repeat;
     background-size: 3.5vw;
     background-position: center;
@@ -170,7 +170,11 @@ li {
 }
 
 li p {
-    transition: all .2s ease-in-out;
+    transition: .1s ease-in-out;
+/*
+    margin: 0 !important;
+    padding: 0 !important;
+*/
 }
 
 li p:hover {
@@ -249,11 +253,12 @@ hr {
 /*BIO CONTENT//////////////////////////////////////////*/
 
 #bio-cont, #tour-cont {
-    width: 48vw;
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: .5vw 1vw 1vw 1vw;
+    
+    padding: .5vw 1vw 1vw 1vw !important;
+    width: 48vw;
     
         /*    font-family: 'Miriam Libre', sans-serif;*/
     /*    font-family: 'Amiko', sans-serif;*/
@@ -271,15 +276,19 @@ hr {
     order: 0;
     width: 20vw;
     height: 32vw;
-    background-image: url(img/dan-bio-pic1.png);
+    background-image: url(../img/dan-bio-pic1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #dan-bio {
-
     order: 1;
     width: 26vw;
+}
+
+#dan-bio-text {
+        letter-spacing: -.02vw !important;
+    line-height: 1.2vw !important;
 }
 
 /*TOUR CONTENT//////////////////////////////////////////*/
