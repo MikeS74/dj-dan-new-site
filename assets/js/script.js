@@ -4,6 +4,7 @@ $(document).ready(function () {
     $("#bio-pg").hide();
     $("#tour-pg").hide();
     $("#gallery-pg").hide();
+    $("#music-pg").hide();
     $(".home-container").hide();
     $("li").hide();
 
@@ -69,10 +70,15 @@ $(document).ready(function () {
         $("#gallery-pg").delay("slow").fadeIn(500);
         homeContFadeOut();
     });
+    
+            $("#music-link").on("click", function () {
+        $("#music-pg").delay("slow").fadeIn(500);
+        homeContFadeOut();
+    });
 
     $(".close-button").on("click", function () {
         menuFadeIns();
-        $("#bio-pg, #tour-pg, #gallery-pg").fadeOut(500);
+        $("#bio-pg, #tour-pg, #gallery-pg, #music-pg").fadeOut(500);
         homeContFadeIn();
     });
 

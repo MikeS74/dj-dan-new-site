@@ -202,16 +202,16 @@ li p:hover {
     background-color: #b3b3b3;
 }
 
-/*BIO SECTION//////////////////////////////////////////*/
+/*PAGES/SECTIONS//////////////////////////////////////////*/
 
 .section-cont {
     display: flex;
     justify-content: center;
 }
 
-#bio-pg, #tour-pg, #gallery-pg {
+#bio-pg, #tour-pg, #gallery-pg, #music-pg {
     z-index: 1;
-/*    position: absolute;*/
+    position: absolute;
     margin: 2vw auto 0 auto;
     width: 50vw;
     height: auto;
@@ -257,11 +257,11 @@ hr {
 
 /*BIO CONTENT//////////////////////////////////////////*/
 
-#bio-cont, #tour-cont, #gallery-cont {
+#bio-cont, #tour-cont, #gallery-cont, #music-cont {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
     padding: .5vw 1vw 1vw 1vw !important;
     width: 48vw;
     
@@ -300,4 +300,66 @@ hr {
 iframe {
     width: 47.9vw;
     height: 60vw;
+}
+
+/*MUSIC CONTENT//////////////////////////////////////////*/
+
+#soundcloud-link {
+        order: 0;
+    width: 24vw;
+    height: 8vw;
+    background-image: url('../img/soundcloud-logo2.png');
+    background-repeat: no-repeat;
+    background-size: 10.1vw;
+    background-position: center;
+}
+
+#mixcloud-link {
+        order: 1;
+    width: 24vw;
+    height: 8vw;
+    background-image: url('../img/mixcloud-logo2.png');
+    background-repeat: no-repeat;
+    background-size: 14.43vw;
+    background-position: center;
+}
+
+#beatport-link {
+        order: 2;
+    width: 24vw;
+    height: 8vw;
+    background-image: url('../img/beatport-logo2.png');
+    background-repeat: no-repeat;
+    background-size: 12.6vw;
+    background-position: center;
+}
+
+#traxsource-link {
+        order: 3;
+    width: 24vw;
+    height: 8vw;
+    background-image: url('../img/traxsource-logo2.png');
+    background-repeat: no-repeat;
+    background-size: 17.9vw;
+    background-position: center;
+}
+
+#spotify-link {
+        order: 4;
+    width: 24vw;
+    height: 8vw;
+    background-image: url('../img/spotify-logo2.png');
+    background-repeat: no-repeat;
+    background-size: 12.7vw;
+    background-position: center;
+}
+
+#discogs-link {
+        order: 5;
+    width: 24vw;
+    height: 8vw;
+    background-image: url('../img/discogs-logo2.png');
+    background-repeat: no-repeat;
+    background-size: 8.9vw;
+    background-position: center;
 }
