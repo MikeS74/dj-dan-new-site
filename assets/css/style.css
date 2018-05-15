@@ -235,6 +235,16 @@ li p:hover {
     background-color: #414141;
 }
 
+#dan-logo-sm {
+    position: absolute;
+    margin: -1.7vw 0 0 1.2vw;
+    width: 8.2vw;
+    height: 3.4vw;
+    background-image: url(/assets/img/dj-dan-icon-small.png);
+    background-repeat: no-repeat;
+    background-size: 8.19vw
+}
+
 .sect-header {
     position: relative;
     top: .2vw;
@@ -246,7 +256,7 @@ li p:hover {
     /*    font-family: 'Cabin', sans-serif;*/
     /*    font-family: 'Maven Pro', sans-serif;*/
     font-weight: 500;
-    margin: -.7vw 1vw 1vw 1vw;
+    margin: -.7vw 1vw 1vw 10.2vw;
     font-size: 1.9vw
 }
 
@@ -305,6 +315,11 @@ iframe {
 }
 
 /*MUSIC CONTENT//////////////////////////////////////////*/
+
+#sound-text {
+    position: absolute;
+    margin-top: -.8vw
+}
 
 #soundcloud-link {
         order: 0;
