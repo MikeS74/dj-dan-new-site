@@ -2,6 +2,7 @@
 
 body {
     color: #b3b3b3;
+    background-color: #1f1f1f;
 }
 
 #bkgd {
@@ -9,7 +10,6 @@ body {
     height: 1440px;
     background-image: url('../img/bkgd-pattern1.png');
     background-repeat: repeat;
-/*    background-size: auto;*/
     background-image: url('../img/bkgd-pattern1.png'),
     -webkit-linear-gradient(left, #89253e, #3a6186);
     background-image: url('../img/bkgd-pattern1.png'),

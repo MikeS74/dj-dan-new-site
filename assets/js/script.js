@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
     //ORIG FADE IN
+    $("#bkgd").hide();
     $("#bio-pg").hide();
     $("#tour-pg").hide();
     $("#gallery-pg").hide();
@@ -10,6 +11,8 @@ $(document).ready(function () {
 
     setTimeout(function () {
         $(".home-container").fadeIn(2000);
+        $("#bkgd").fadeIn(2000);
+        
     }, 500);
     menuFadeIns();
 
