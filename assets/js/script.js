@@ -90,6 +90,18 @@ $(document).ready(function () {
         $("#bio-pg, #tour-pg, #gallery-pg, #music-pg, #contact-pg").fadeOut(500);
         homeContFadeIn();
     });
+    
+    $("#instereo-link").on("click", function () {
+        window.open("http://instereorecordings.com");
+    });
+    
+    $("#sdam-link").on("click", function () {
+        window.open("http://soundcloud.com/djdanmusic/sd-podcast-ep124");
+    });
+    
+    $("#merch-link").on("click", function () {
+        window.open("http://redbubble.com/people/instereo");
+    });
 
     //TOUR CALENDAR SCRIPT
     //    jQuery.loadScript = function (url, callback) {
