@@ -6,13 +6,14 @@ $(document).ready(function () {
     $("#tour-pg").hide();
     $("#gallery-pg").hide();
     $("#music-pg").hide();
+    $("#contact-pg").hide();
     $(".home-container").hide();
     $("li").hide();
 
     setTimeout(function () {
         $(".home-container").fadeIn(2000);
         $("#bkgd").fadeIn(2000);
-        
+
     }, 500);
     menuFadeIns();
 
@@ -68,34 +69,39 @@ $(document).ready(function () {
         $("#tour-pg").delay("slow").fadeIn(500);
         homeContFadeOut();
     });
-    
-        $("#gal-link").on("click", function () {
+
+    $("#gal-link").on("click", function () {
         $("#gallery-pg").delay("slow").fadeIn(500);
         homeContFadeOut();
     });
-    
-            $("#music-link").on("click", function () {
+
+    $("#music-link").on("click", function () {
         $("#music-pg").delay("slow").fadeIn(500);
+        homeContFadeOut();
+    });
+
+    $("#contact-link").on("click", function () {
+        $("#contact-pg").delay("slow").fadeIn(500);
         homeContFadeOut();
     });
 
     $(".close-button").on("click", function () {
         menuFadeIns();
-        $("#bio-pg, #tour-pg, #gallery-pg, #music-pg").fadeOut(500);
+        $("#bio-pg, #tour-pg, #gallery-pg, #music-pg, #contact-pg").fadeOut(500);
         homeContFadeIn();
     });
 
     //TOUR CALENDAR SCRIPT
-//    jQuery.loadScript = function (url, callback) {
-//        jQuery.ajax({
-//            url: url,
-//            dataType: 'script',
-//            success: callback,
-//            async: true
-//        });
-//    }
-//    $.loadScript('//widget.songkick.com/306806/widget.js', function () {
-//        console.log("Songkick Script Loaded!");
-//    });
+    //    jQuery.loadScript = function (url, callback) {
+    //        jQuery.ajax({
+    //            url: url,
+    //            dataType: 'script',
+    //            success: callback,
+    //            async: true
+    //        });
+    //    }
+    //    $.loadScript('//widget.songkick.com/306806/widget.js', function () {
+    //        console.log("Songkick Script Loaded!");
+    //    });
     //////////////////////
 });
