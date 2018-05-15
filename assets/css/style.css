@@ -170,7 +170,7 @@ li {
 }
 
 li p {
-    transition: all .3s ease-in-out;
+    transition: all .1s ease-in-out;
 /*
     margin: 0 !important;
     padding: 0 !important;
@@ -179,8 +179,9 @@ li p {
 
 li p:hover {
     color: white;
-    text-transform: lowercase;
-    transform: scaleX(1.1);
+/*    text-transform: lowercase;*/
+    transform: color();
+    transform: scale(1.1);
 }
 
 .top-li {
