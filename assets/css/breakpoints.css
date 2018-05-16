@@ -1,0 +1,234 @@
+.home-container {
+    width: 47.5vw;
+}
+
+.fortyfive-logo {
+    margin: 1.51vw 0 0 0;
+    width: 6vw;
+    height: 6vw;
+    border-width: 1px;
+    background-size: 6.6vw;
+}
+
+.vert-line {
+    margin: 7.7vw 0 0 0;
+    width: 1px;
+    height: 2.5vw;
+}
+
+.horiz-line {
+    margin: 10.2vw 0 0 0;
+    width: 35vw;
+    height: 1px;
+}
+
+#djdan-logo {
+    margin: 11.5vw 0 0 0;
+    width: 35vw;
+    height: 8vw;
+    background-size: 18.6vw;
+}
+
+#social-links {
+    margin: 20.5vw 0 0 0;
+    width: 35vw;
+    height: 4vw;
+}
+
+#fb {
+    width: 3vw;
+    height: 3vw;
+    background-size: 3vw;
+}
+
+#ig {
+    width: 3vw;
+    height: 3vw;
+    background-size: 3vw;
+}
+
+#sc {
+    width: 4vw;
+    height: 3vw;
+    background-size: 4vw;
+}
+
+#tw {
+    width: 3.5vw;
+    height: 3vw;
+    background-size: 3.5vw;
+}
+
+#menu-cont {
+    margin: 24.7vw 0 0 0;
+    font-size: 1.4vw;
+    letter-spacing: .05rem;
+    width: 35vw;
+    height: 20%;
+}
+
+ul {
+    width: 14vw;
+    border-width: 1px;
+}
+
+li {
+    padding-top: .6vw;
+    margin-bottom: .6vw;
+    border-width: 1px;
+}
+
+.vert-line-menu {
+    width: 1px;
+    height: 2.5vw;
+}
+
+.horiz-line-menu {
+    width: 35vw;
+    height: 1px;
+}
+
+/*PAGES/SECTIONS//////////////////////////////////////////*/
+
+#bio-pg,
+#tour-pg,
+#gallery-pg,
+#music-pg,
+#contact-pg {
+    margin: 2vw auto 0 auto;
+    width: 50vw;
+    border-radius: .8vw;
+}
+
+.close-button {
+    left: 47vw;
+    margin: .5vw;
+    font-size: 1.79vw;
+}
+
+#dan-logo-sm {
+    margin: -1.7vw 0 0 1.2vw;
+    width: 8.2vw;
+    height: 3.4vw;
+    background-size: 8.19vw
+}
+
+.sect-header {
+    top: .2vw;
+    margin: -.7vw 1vw 1vw 10.2vw;
+    font-size: 1.9vw
+}
+
+hr {
+    margin: 1vw 1vw 1vw 1vw;
+    height: 1px;
+}
+
+/*BIO CONTENT//////////////////////////////////////////*/
+
+#bio-cont,
+#tour-cont,
+#gallery-cont,
+#music-cont,
+#contact-cont {
+    flex-direction: row;
+    padding: .5vw 1vw 1vw 1vw !important;
+    width: 48vw;
+    font-size: 1.18vw;
+}
+
+#dan-pic {
+    width: 20vw;
+    height: 32vw;
+}
+
+#dan-bio {
+    width: 26vw;
+}
+
+#dan-bio-text {
+    letter-spacing: -.02vw !important;
+    line-height: 1.2vw !important;
+}
+
+/*TOUR CONTENT//////////////////////////////////////////*/
+
+iframe {
+    width: 47.9vw;
+    height: 60vw;
+}
+
+/*MUSIC CONTENT//////////////////////////////////////////*/
+
+#sound-text {
+    margin-top: -.8vw
+}
+
+#soundcloud-link {
+    width: 24vw;
+    height: 8vw;
+    background-size: 10.1vw;
+}
+
+#mixcloud-link {
+    width: 24vw;
+    height: 8vw;
+    background-size: 14.43vw;
+}
+
+#beatport-link {
+    width: 24vw;
+    height: 8vw;
+    background-size: 12.6vw;
+}
+
+#traxsource-link {
+    width: 24vw;
+    height: 8vw;
+    background-size: 17.9vw;
+}
+
+#spotify-link {
+    width: 24vw;
+    height: 8vw;
+    background-size: 12.7vw;
+}
+
+#discogs-link {
+    width: 24vw;
+    height: 8vw;
+    background-size: 8.9vw;
+}
+
+/*CONTACT CONTENT//////////////////////////////////////////*/
+
+#contact-info {
+    width: 23vw;
+}
+
+form {
+    width: 22vw;
+    padding: .8vw;
+    border-width: 1px;
+}
+
+button {
+    margin: 0 0 0 6.3vw;
+    font-size: 1.1vw;
+    border-width: 1px;
+}
+
+input {
+    width: 15vw;
+    margin: 0 0 1.1vw 5vw;
+}
+
+textarea {
+    width: 15vw;
+    height: 8vw;
+    margin: -1vw 0 0 6.2vw;
+}
+
+label {
+    width: 5vw;
+}
