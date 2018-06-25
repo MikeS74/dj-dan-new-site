@@ -21,6 +21,8 @@ body {
     background-blend-mode: overlay;
 }
 
+/*HOME PAGE ELEMENTS//////////////////////////////////////////*/
+
 .home-container {
     z-index: 0;
     display: flex;
@@ -33,31 +35,39 @@ body {
 
 .fortyfive-logo {
     position: absolute;
-    margin: 1.51vw 0 0 0;
-    width: 6vw;
-    height: 6vw;
+/*    margin: 1.51vw 0 0 0;*/
+    margin: 26px 0 0 0;
+/*    width: 6vw;*/
+    width: 81.5px;
+/*    height: 6vw;*/
+    height: 81.5px;
     border-radius: 50%;
     border-style: solid;
     border-width: 1px;
     border-color: #b3b3b3;
     background-image: url('../img/fortyfive-icon2.png');
     background-repeat: no-repeat;
-    background-size: 6.6vw;
+/*    background-size: 6.6vw;*/
+    background-size: 90px;
     background-position: center;
 }
 
 .vert-line {
     position: absolute;
-    margin: 7.7vw 0 0 0;
+/*    margin: 7.7vw 0 0 0;*/
+    margin: 110px 0 0 0;
     width: 1px;
-    height: 2.5vw;
+/*    height: 2.5vw;*/
+    height: 29px;
     background-color: #b3b3b3;
 }
 
 .horiz-line {
     position: absolute;
-    margin: 10.2vw 0 0 0;
-    width: 35vw;
+/*    margin: 10.2vw 0 0 0;*/
+    margin: 139px 0 0 0;
+/*    width: 35vw;*/
+    width: 478.2px;
     height: 1px;
     background-color: #b3b3b3;
 }
@@ -187,14 +197,16 @@ li p:hover {
     position: relative;
     margin: 0 auto 0 auto;
     width: 1px;
-    height: 2.5vw;
+/*    height: 2.5vw;*/
+    height: 29px;
     background-color: #b3b3b3;
 }
 
 .horiz-line-menu {
     position: absolute;
     margin: 0;
-    width: 35vw;
+/*    width: 35vw;*/
+    width: 478.2px;
     height: 1px;
     background-color: #b3b3b3;
 }
