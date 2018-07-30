@@ -22,14 +22,14 @@ body {
 }
 
 /*HOME PAGE ELEMENTS//////////////////////////////////////////*/
-
 .home-container {
     z-index: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0 auto 0 auto;
-    width: 47.5vw;
+/*    width: 47.5vw;*/
+    width: 650px;
     height: 100%;
 }
 
@@ -74,12 +74,16 @@ body {
 
 #djdan-logo {
     position: absolute;
-    margin: 11.5vw 0 0 0;
-    width: 35vw;
-    height: 8vw;
+/*    margin: 11.5vw 0 0 0;*/
+    margin: 157px 0 0 0;
+/*    width: 35vw;*/
+    width: 478.2px;
+/*    height: 8vw;*/
+    height: 108px;
     background-image: url('../img/dan-logo1.png');
     background-repeat: no-repeat;
-    background-size: 18.6vw;
+/*    background-size: 18.6vw;*/
+    background-size: 254px;
     background-position: center;
 }
 
@@ -87,48 +91,63 @@ body {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 20.5vw 0 0 0;
-    width: 35vw;
-    height: 4vw;
+/*    margin: 20.5vw 0 0 0;*/
+    margin: 280px 0 0 0;
+/*    width: 35vw;*/
+    width: 478.2px;
+/*    height: 4vw;*/
+    height: 55px;
 }
 
 #fb {
     order: 0;
-    width: 3vw;
-    height: 3vw;
+/*    width: 3vw;*/
+    width: 41px;
+/*    height: 3vw;*/
+    height: 41px;
     background-image: url('../img/fb-icon1.png');
     background-repeat: no-repeat;
-    background-size: 3vw;
+/*    background-size: 3vw;*/
+    background-size: 40px;
     background-position: center;
 }
 
 #ig {
     order: 1;
-    width: 3vw;
-    height: 3vw;
+/*    width: 3vw;*/
+    width: 41px;
+/*    height: 3vw;*/
+    height: 41px;
     background-image: url('../img/ig-icon1.png');
     background-repeat: no-repeat;
-    background-size: 3vw;
+/*    background-size: 3vw;*/
+    background-size: 40px;
     background-position: center;
 }
 
 #sc {
     order: 2;
-    width: 4vw;
-    height: 3vw;
+/*    width: 4vw;*/
+    width: 55px;
+/*    height: 3vw;*/
+    height: 41px;
     background-image: url('../img/sc-icon1.png');
     background-repeat: no-repeat;
-    background-size: 4vw;
+/*    background-size: 4vw;*/
+    background-size: 54px;
     background-position: center;
 }
 
 #tw {
     order: 3;
-    width: 3.5vw;
-    height: 3vw;
+/*    width: 3.5vw;*/
+    width: 48px;
+/*    height: 3vw;*/
+    height: 41px;
     background-image: url('../img/tw-icon1.png');
     background-repeat: no-repeat;
-    background-size: 3.5vw;
+/*    background-size: 3.5vw;*/
+    background-size: 47px;
     background-position: center;
 }
 
@@ -142,11 +161,14 @@ body {
     /*    font-family: 'Maven Pro', sans-serif;*/
     font-weight: 500;
     position: absolute;
-    margin: 24.7vw 0 0 0;
-    font-size: 1.4vw;
+/*    margin: 24.7vw 0 0 0;*/
+    margin: 337px 0 0 0;
+/*    font-size: 1.4vw;*/
+    font-size: 19px;
     letter-spacing: .05rem;
     display: inline-flex;
-    width: 35vw;
+/*    width: 35vw;*/
+    width: 478.2px;
     height: 20%;
 }
 
@@ -161,7 +183,8 @@ body {
 }
 
 ul {
-    width: 14vw;
+/*    width: 14vw;*/
+    width: 191.5px;
     border: solid;
     border-width: 1px;
     border-color: #b3b3b3;
@@ -169,8 +192,10 @@ ul {
 }
 
 li {
-    padding-top: .6vw;
-    margin-bottom: .6vw;
+/*    padding-top: .6vw;*/
+    padding-top: 8.2px;
+/*    margin-bottom: .6vw;*/
+    margin-bottom: 8.2px;
     text-align: center;
     width: 100%;
     border-top: solid;
