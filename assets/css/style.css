@@ -346,8 +346,10 @@ hr {
 
 #dan-pic {
     order: 0;
-    width: 20vw;
-    height: 32vw;
+/*    width: 20vw;*/
+    width: 273px;
+/*    height: 32vw;*/
+    height: 438px;
     background-image: url(../img/dan-bio-pic1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -355,12 +357,15 @@ hr {
 
 #dan-bio {
     order: 1;
-    width: 26vw;
+/*    width: 26vw;*/
+    width: 355px;
 }
 
 #dan-bio-text {
-    letter-spacing: -.02vw !important;
-    line-height: 1.2vw !important;
+/*    letter-spacing: -.02vw !important;*/
+    letter-spacing: -.27px !important;
+/*    line-height: 1.2vw !important;*/
+    line-height: 16px !important;
 }
 
 /*TOUR CONTENT//////////////////////////////////////////*/
