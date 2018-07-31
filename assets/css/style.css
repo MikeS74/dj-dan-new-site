@@ -250,18 +250,24 @@ li p:hover {
 #contact-pg {
     z-index: 1;
     position: absolute;
-    margin: 2vw auto 0 auto;
-    width: 50vw;
+/*    margin: 2vw auto 0 auto;*/
+    margin: 27.2px auto 0 auto;
+/*    width: 50vw;*/
+    width: 683px;
     height: auto;
-    border-radius: .8vw;
+/*    border-radius: .8vw;*/
+    border-radius: 10px;
     background-color: #1f1f1f;
 }
 
 .close-button {
     position: relative;
-    left: 47vw;
-    margin: .5vw;
-    font-size: 1.79vw;
+/*    left: 47vw;*/
+    left: 642px;
+/*    margin: .5vw;*/
+    margin: 6.8px;
+/*    font-size: 1.79vw;*/
+    font-size: 24px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -272,17 +278,22 @@ li p:hover {
 
 #dan-logo-sm {
     position: absolute;
-    margin: -1.7vw 0 0 1.2vw;
-    width: 8.2vw;
-    height: 3.4vw;
+/*    margin: -1.7vw 0 0 1.2vw;*/
+    margin: -23px 0 0 15.5px;
+/*    width: 8.2vw;*/
+    width: 112px;
+/*    height: 3.4vw;*/
+    height: 46px;
     background-image: url(/assets/img/dj-dan-icon-small.png);
     background-repeat: no-repeat;
-    background-size: 8.19vw
+/*    background-size: 8.19vw;*/
+    background-size: 111px;
 }
 
 .sect-header {
     position: relative;
-    top: .2vw;
+/*    top: .2vw;*/
+    top: 3px;
     /*    font-family: 'Miriam Libre', sans-serif;*/
     font-family: 'Amiko', sans-serif;
     /*    font-family: 'Palanquin', sans-serif;*/
@@ -291,13 +302,16 @@ li p:hover {
     /*    font-family: 'Cabin', sans-serif;*/
     /*    font-family: 'Maven Pro', sans-serif;*/
     font-weight: 500;
-    margin: -.7vw 1vw 1vw 10.2vw;
-    font-size: 1.9vw
+/*    margin: -.7vw 1vw 1vw 10.2vw;*/
+    margin: -9.5px 13.7px 13.7px 139.5px;
+/*    font-size: 1.9vw;*/
+    font-size: 25.5px;
 }
 
 hr {
     border: none;
-    margin: 1vw 1vw 1vw 1vw;
+/*    margin: 1vw 1vw 1vw 1vw;*/
+    margin: 13.7px;
     height: 1px;
     background-color: #b3b3b3;
 }
@@ -313,8 +327,10 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: .5vw 1vw 1vw 1vw !important;
-    width: 48vw;
+/*    padding: .5vw 1vw 1vw 1vw !important;*/
+    padding: 6.8px 13.7px 13.7px 13.7px !important;
+/*    width: 48vw;*/
+    width: 655px;
 
     /*    font-family: 'Miriam Libre', sans-serif;*/
     /*    font-family: 'Amiko', sans-serif;*/
@@ -323,7 +339,8 @@ hr {
     /*    font-family: 'Quicksand', sans-serif;*/
     /*    font-family: 'Cabin', sans-serif;*/
     font-family: 'Maven Pro', sans-serif;
-    font-size: 1.18vw;
+/*    font-size: 1.18vw;*/
+    font-size: 16px;
     font-weight: 300;
 }
 
