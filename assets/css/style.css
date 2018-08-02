@@ -371,74 +371,95 @@ hr {
 /*TOUR CONTENT//////////////////////////////////////////*/
 
 iframe {
-    width: 47.9vw;
-    height: 60vw;
+/*    width: 47.9vw;*/
+    width: 650px;
+/*    height: 60vw;*/
+    height: 800px;
 }
 
 /*MUSIC CONTENT//////////////////////////////////////////*/
 
 #sound-text {
     position: absolute;
-    margin-top: -.8vw
+/*    margin-top: -.8vw;*/
+    margin-top: -10.5px;
 }
 
 #soundcloud-link {
     order: 0;
-    width: 24vw;
-    height: 8vw;
+/*    width: 24vw;*/
+    width: 325px;
+/*    height: 8vw;*/
+    height: 110px;
     background-image: url('../img/soundcloud-logo2.png');
     background-repeat: no-repeat;
-    background-size: 10.1vw;
+/*    background-size: 10.1vw;*/
+    background-size: 137px;
     background-position: center;
 }
 
 #mixcloud-link {
     order: 1;
-    width: 24vw;
-    height: 8vw;
+/*    width: 24vw;*/
+    width: 325px;
+/*    height: 8vw;*/
+    height: 110px;
     background-image: url('../img/mixcloud-logo2.png');
     background-repeat: no-repeat;
-    background-size: 14.43vw;
+/*    background-size: 14.43vw;*/
+    background-size: 197px;
     background-position: center;
 }
 
 #beatport-link {
     order: 2;
-    width: 24vw;
-    height: 8vw;
+/*    width: 24vw;*/
+    width: 325px;
+/*    height: 8vw;*/
+    height: 110px;
     background-image: url('../img/beatport-logo2.png');
     background-repeat: no-repeat;
-    background-size: 12.6vw;
+/*    background-size: 12.6vw;*/
+    background-size: 172px;
     background-position: center;
 }
 
 #traxsource-link {
     order: 3;
-    width: 24vw;
-    height: 8vw;
+/*    width: 24vw;*/
+    width: 325px;
+/*    height: 8vw;*/
+    height: 110px;
     background-image: url('../img/traxsource-logo2.png');
     background-repeat: no-repeat;
-    background-size: 17.9vw;
+/*    background-size: 17.9vw;*/
+    background-size: 244px;
     background-position: center;
 }
 
 #spotify-link {
     order: 4;
-    width: 24vw;
-    height: 8vw;
+/*    width: 24vw;*/
+    width: 325px;
+/*    height: 8vw;*/
+    height: 110px;
     background-image: url('../img/spotify-logo2.png');
     background-repeat: no-repeat;
-    background-size: 12.7vw;
+/*    background-size: 12.7vw;*/
+    background-size: 173px;
     background-position: center;
 }
 
 #discogs-link {
     order: 5;
-    width: 24vw;
-    height: 8vw;
+/*    width: 24vw;*/
+    width: 325px;
+/*    height: 8vw;*/
+    height: 110px;
     background-image: url('../img/discogs-logo2.png');
     background-repeat: no-repeat;
-    background-size: 8.9vw;
+/*    background-size: 8.9vw;*/
+    background-size: 121px;
     background-position: center;
 }
 
