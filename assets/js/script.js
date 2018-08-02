@@ -13,7 +13,6 @@ $(document).ready(function () {
     setTimeout(function () {
         $(".home-container").fadeIn(2000);
         $("#bkgd").fadeIn(2000);
-
     }, 500);
     menuFadeIns();
 
@@ -59,7 +58,7 @@ $(document).ready(function () {
         }, 1100);
     };
 
-    //ON CLICKS
+    //ON CLICKS THAT OPEN MINI PAGES
     $("#bio-link").on("click", function () {
         $("#bio-pg").delay("slow").fadeIn(500);
         homeContFadeOut();
@@ -92,16 +91,18 @@ $(document).ready(function () {
         homeContFadeIn();
     }
 
+    //MOUSE CLICK CLOSE
     $(".close-button").on("click", function () {
         mainCloseActions();
     });
-
+    //ESC KEY CLOSE
     $(document).on("keyup", function (e) {
         if (e.keyCode === 27) {
             mainCloseActions();
         }
     });
 
+    //EXTERNAL LINKS THAT OPEN IN WINDOW
     $("#instereo-link").on("click", function () {
         window.open("http://instereorecordings.com");
     });
@@ -115,14 +116,13 @@ $(document).ready(function () {
     });
 
     //TOUR CALENDAR SCRIPT
-        $.getScript( "//widget.songkick.com/306806/widget.js" )
-  .done(function( script, textStatus ) {
-    console.log( "Songkick Script Loaded!" );
-  })
-  .fail(function( jqxhr, settings, exception ) {
-    console.log("FAILED");
-//    $( "div.log" ).text( "Triggered ajaxError handler." );
-    
-});
-    //////////////////////
+    $.getScript("//widget.songkick.com/306806/widget.js")
+        .done(function (script, textStatus) {
+            console.log("Songkick Script Loaded!");
+        })
+        .fail(function (jqxhr, settings, exception) {
+            console.log("FAILED");
+                $("#tour-cont").html( '<p style="text-align: center">Oops, looks like the Songkick Tourbox failed to load.</p><p style="text-align: center">Please refresh the page or try again later.</p>' );
+        });
+
 });
