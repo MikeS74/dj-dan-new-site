@@ -467,41 +467,52 @@ iframe {
 
 #contact-info {
     order: 0;
-    width: 23vw;
+/*    width: 23vw;*/
+    width: 314px;
 }
 
 form {
     order: 1;
-    width: 22vw;
-    padding: .8vw;
+/*    width: 22vw;*/
+    width: 300.5px;
+/*    padding: .8vw;*/
+    padding: 11px;
     border-style: solid;
     border-width: 1px;
     border-color: #b3b3b3;
 }
 
 button {
-    margin: 0 0 0 6.3vw;
+/*    margin: 0 0 0 6.3vw;*/
+    margin: 0 0 0 86px;
     background-color: #1f1f1f;
     color: #b3b3b3 !important;
     font-family: 'Maven Pro', sans-serif;
-    font-size: 1.1vw;
+/*    font-size: 1.1vw;*/
+    font-size: 15px;
     border-width: 1px;
     border-style: solid;
     border-color: #b3b3b3;
 }
 
 input {
-    width: 15vw;
-    margin: 0 0 1.1vw 5vw;
+/*    width: 15vw;*/
+    width: 205px;
+/*    margin: 0 0 1.1vw 5vw;*/
+    margin: 0 0 15px 68px;
 }
 
 textarea {
-    width: 15vw;
-    height: 8vw;
-    margin: -1vw 0 0 6.2vw;
+/*    width: 15vw;*/
+    width: 205px;
+/*    height: 8vw;*/
+    height: 109px;
+/*    margin: -1vw 0 0 6.2vw;*/
+    margin: -13px 0 0 85px;
 }
 
 label {
-    width: 5vw;
+/*    width: 5vw;*/
+    width: 68px;
     position: absolute;
 }
