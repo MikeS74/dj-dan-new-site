@@ -115,16 +115,16 @@ $(document).ready(function () {
     });
 
     //TOUR CALENDAR SCRIPT
-    //    jQuery.loadScript = function (url, callback) {
-    //        jQuery.ajax({
-    //            url: url,
-    //            dataType: 'script',
-    //            success: callback,
-    //            async: true
-    //        });
-    //    }
-    //    $.loadScript('//widget.songkick.com/306806/widget.js', function () {
-    //        console.log("Songkick Script Loaded!");
-    //    });
+        jQuery.loadScript = function (url, callback) {
+            jQuery.ajax({
+                url: url,
+                dataType: 'script',
+                success: callback,
+                async: true
+            });
+        }
+        $.loadScript('//widget.songkick.com/306806/widget.js', function () {
+            console.log("Songkick Script Loaded!");
+        });
     //////////////////////
 });
