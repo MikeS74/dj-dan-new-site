@@ -85,20 +85,31 @@ $(document).ready(function () {
         homeContFadeOut();
     });
 
-    $(".close-button").on("click", function () {
+    //MAIN CLOSE BUTTON FUNCTION
+    function mainCloseActions() {
         menuFadeIns();
         $("#bio-pg, #tour-pg, #gallery-pg, #music-pg, #contact-pg").fadeOut(500);
         homeContFadeIn();
+    }
+
+    $(".close-button").on("click", function () {
+        mainCloseActions();
     });
-    
+
+    $(document).on("keyup", function (e) {
+        if (e.keyCode === 27) {
+            mainCloseActions();
+        }
+    });
+
     $("#instereo-link").on("click", function () {
         window.open("http://instereorecordings.com");
     });
-    
+
     $("#sdam-link").on("click", function () {
         window.open("http://soundcloud.com/djdanmusic/sd-podcast-ep124");
     });
-    
+
     $("#merch-link").on("click", function () {
         window.open("http://redbubble.com/people/instereo");
     });
