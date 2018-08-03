@@ -1,480 +1,473 @@
 @media (max-width: 768px) {
-.home-container {
-    width: 475.8px;
-}
+    .home-container {
+        width: 475.8px;
+    }
 
-.fortyfive-logo {
-    margin: 19px 0 0 0;
-    width: 59.6px;
-    height: 59.6px;
-    border-width: 1px;
-    background-size: 65.8px;
-}
+    .fortyfive-logo {
+        margin: 19px 0 0 0;
+        width: 59.6px;
+        height: 59.6px;
+        border-width: 1px;
+        background-size: 65.8px;
+    }
 
-.vert-line {
-    margin: 80.5px 0 0 0;
-    width: 1px;
-     height: 21.2px;
-}
+    .vert-line {
+        margin: 80.5px 0 0 0;
+        width: 1px;
+        height: 21.2px;
+    }
 
-.horiz-line {
-    margin: 101.7px 0 0 0;
-    width: 350px;
-    height: 1px;
-}
+    .horiz-line {
+        margin: 101.7px 0 0 0;
+        width: 350px;
+        height: 1px;
+    }
 
-#djdan-logo {
-    margin: 115px 0 0 0;
-    width: 350px;
-    height: 79px;
-    background-size: 186px;
-}
+    #djdan-logo {
+        margin: 115px 0 0 0;
+        width: 350px;
+        height: 79px;
+        background-size: 186px;
+    }
 
-#social-links {
-    margin: 205px 0 0 0;
-    width: 350px;
-    height: 40px;
-}
+    #social-links {
+        margin: 205px 0 0 0;
+        width: 350px;
+        height: 40px;
+    }
 
-#fb {
-    width: 30px;
-    height: 30px;
-    background-size: 29px;
-}
+    #fb {
+        width: 30px;
+        height: 30px;
+        background-size: 29px;
+    }
 
-#ig {
-    width: 30px;
-    height: 30px;
-    background-size: 29px;
-}
+    #ig {
+        width: 30px;
+        height: 30px;
+        background-size: 29px;
+    }
 
-#sc {
-    width: 40px;
-    height: 30px;
-    background-size: 39.5px;
-}
+    #sc {
+        width: 40px;
+        height: 30px;
+        background-size: 39.5px;
+    }
 
-#tw {
-    width: 35.1px;
-    height: 30px;
-    background-size: 34.4px;
-}
+    #tw {
+        width: 35.1px;
+        height: 30px;
+        background-size: 34.4px;
+    }
 
-#menu-cont {
-    margin: 246.6px 0 0 0;
-    font-size: 15px;
-    letter-spacing: .05rem;
-    width: 350px;
-    height: 20%;
-}
+    #menu-cont {
+        margin: 246.6px 0 0 0;
+        font-size: 15px;
+        letter-spacing: .05rem;
+        width: 350px;
+        height: 20%;
+    }
 
-ul {
-    width: 146px;
-    border-width: 1px;
-    border-radius: 3.6px;
-}
+    ul {
+        width: 146px;
+        border-width: 1px;
+        border-radius: 3.6px;
+    }
 
-li {
-    padding-top: 6px;
-    margin-bottom: 6px;
-    border-width: 1px;
-}
+    li {
+        padding-top: 6px;
+        margin-bottom: 6px;
+        border-width: 1px;
+    }
 
-.vert-line-menu {
-    width: 1px;
-    height: 21.2px;
-}
+    .vert-line-menu {
+        width: 1px;
+        height: 21.2px;
+    }
 
-.horiz-line-menu {
-    width: 350px;
-    height: 1px;
-}
+    .horiz-line-menu {
+        width: 350px;
+        height: 1px;
+    }
 
-/*PAGES/SECTIONS//////////////////////////////////////////*/
+    /*PAGES/SECTIONS//////////////////////////////////////////*/
+    #bio-pg,
+    #tour-pg,
+    #gallery-pg,
+    #music-pg,
+    #contact-pg {
+        margin: 19.9px auto 0 auto;
+        width: 500px;
+        border-radius: 7.3px;
+    }
 
-#bio-pg,
-#tour-pg,
-#gallery-pg,
-#music-pg,
-#contact-pg {
-    margin: 19.9px auto 0 auto;
-    width: 500px;
-    border-radius: 7.3px;
-}
+    .close-button {
+        left: 470px;
+        margin: 5px;
+        font-size: 17.5px;
+    }
 
-.close-button {
-    left: 470px;
-    margin: 5px;
-    font-size: 17.5px;
-}
+    #dan-logo-sm {
+        margin: -16.8px 0 0 11.3px;
+        width: 82.7px;
+        height: 33.6px;
+        background-size: 81.2px;
+    }
 
-#dan-logo-sm {
-    margin: -16.8px 0 0 11.3px;
-    width: 82.7px;
-    height: 33.6px;
-    background-size: 81.2px;
-}
+    .sect-header {
+        top: 2.2px;
+        margin: -7px 10px 10px 102.1px;
+        font-size: 18.6px;
+    }
 
-.sect-header {
-    top: 2.2px;
-    margin: -7px 10px 10px 102.1px;
-    font-size: 18.6px;
-}
+    hr {
+        margin: 10px;
+        height: 1px;
+    }
 
-hr {
-    margin: 10px;
-    height: 1px;
-}
+    /*BIO CONTENT//////////////////////////////////////////*/
+    #bio-cont,
+    #tour-cont,
+    #gallery-cont,
+    #music-cont,
+    #contact-cont {
+        flex-direction: row;
+        padding: 5px 10px 10px 10px !important;
+        width: 479.5px;
+        font-size: 14px;
+    }
 
-/*BIO CONTENT//////////////////////////////////////////*/
+    #dan-pic {
+        width: 200px;
+        height: 320.6px;
+    }
 
-#bio-cont,
-#tour-cont,
-#gallery-cont,
-#music-cont,
-#contact-cont {
-    flex-direction: row;
-    padding: 5px 10px 10px 10px !important;
-    width: 479.5px;
-    font-size: 14px;
-}
+    #dan-bio {
+        width: 260px;
+    }
 
-#dan-pic {
-    width: 200px;
-    height: 320.6px;
-}
+    #dan-bio-text {
+        letter-spacing: -.20px !important;
+        /*    line-height: 11.7px !important;*/
+    }
 
-#dan-bio {
-    width: 260px;
-}
+    /*TOUR CONTENT//////////////////////////////////////////*/
+    iframe {
+        width: 475.8px;
+        height: 585.6px;
+    }
 
-#dan-bio-text {
-    letter-spacing: -.20px !important;
-/*    line-height: 11.7px !important;*/
-}
+    /*MUSIC CONTENT//////////////////////////////////////////*/
+    #sound-text {
+        margin-top: -7.6px;
+    }
 
-/*TOUR CONTENT//////////////////////////////////////////*/
+    #soundcloud-link {
+        width: 237.9px;
+        height: 80.5px;
+        background-size: 100.3px;
+    }
 
-iframe {
-    width: 475.8px;
-    height: 585.6px;
-}
+    #mixcloud-link {
+        width: 237.9px;
+        height: 80.5px;
+        background-size: 144.2px;
+    }
 
-/*MUSIC CONTENT//////////////////////////////////////////*/
+    #beatport-link {
+        width: 237.9px;
+        height: 80.5px;
+        background-size: 126px;
+    }
 
-#sound-text {
-    margin-top: -7.6px;
-}
+    #traxsource-link {
+        width: 237.9px;
+        height: 80.5px;
+        background-size: 178.6px;
+    }
 
-#soundcloud-link {
-    width: 237.9px;
-    height: 80.5px;
-    background-size: 100.3px;
-}
+    #spotify-link {
+        width: 237.9px;
+        height: 80.5px;
+        background-size: 126.6px;
+    }
 
-#mixcloud-link {
-    width: 237.9px;
-    height: 80.5px;
-    background-size: 144.2px;
-}
+    #discogs-link {
+        width: 237.9px;
+        height: 80.5px;
+        background-size: 88.5px;
+    }
 
-#beatport-link {
-    width: 237.9px;
-    height: 80.5px;
-    background-size: 126px;
-}
+    /*CONTACT CONTENT//////////////////////////////////////////*/
+    #contact-info {
+        width: 230px;
+    }
 
-#traxsource-link {
-    width: 237.9px;
-    height: 80.5px;
-    background-size: 178.6px;
-}
+    form {
+        width: 220px;
+        padding: 8px;
+        border-width: 1px;
+    }
 
-#spotify-link {
-    width: 237.9px;
-    height: 80.5px;
-    background-size: 126.6px;
-}
+    button {
+        margin: 0 0 0 63px;
+        font-size: 14px;
+        border-width: 1px;
+    }
 
-#discogs-link {
-    width: 237.9px;
-    height: 80.5px;
-    background-size: 88.5px;
-}
+    input {
+        width: 150px;
+        margin: 0 0 11px 49.7px;
+    }
 
-/*CONTACT CONTENT//////////////////////////////////////////*/
+    textarea {
+        width: 150px;
+        height: 80px;
+        margin: -9.5px 0 0 62.2px;
+    }
 
-#contact-info {
-    width: 230px;
-}
-
-form {
-    width: 220px;
-    padding: 8px;
-    border-width: 1px;
-}
-
-button {
-    margin: 0 0 0 63px;
-    font-size: 14px;
-    border-width: 1px;
-}
-
-input {
-    width: 150px;
-    margin: 0 0 11px 49.7px;
-}
-
-textarea {
-    width: 150px;
-    height: 80px;
-    margin: -9.5px 0 0 62.2px;
-}
-
-label {
-    width: 49.7px;
-}
+    label {
+        width: 49.7px;
+    }
 }
 
 @media (max-width: 576px) {
-.home-container {
-    width: 100%;
-}
+    #bkgd {
+        height: 330vh;
+    }
 
-.fortyfive-logo {
-    margin: 19px 0 0 0;
-    width: 59.6px;
-    height: 59.6px;
-    border-width: 1px;
-    background-size: 65.8px;
-}
+    .home-container {
+        width: 100%;
+    }
 
-.vert-line {
-    margin: 80.5px 0 0 0;
-    width: 1px;
-     height: 21.2px;
-}
+    .fortyfive-logo {
+        margin: 19px 0 0 0;
+        width: 59.6px;
+        height: 59.6px;
+        border-width: 1px;
+        background-size: 65.8px;
+    }
 
-.horiz-line {
-    margin: 101.7px 0 0 0;
-    width: 350px;
-    height: 1px;
-}
+    .vert-line {
+        margin: 80.5px 0 0 0;
+        width: 1px;
+        height: 21.2px;
+    }
 
-#djdan-logo {
-    margin: 115px 0 0 0;
-    width: 350px;
-    height: 79px;
-    background-size: 186px;
-}
+    .horiz-line {
+        margin: 101.7px 0 0 0;
+        width: 350px;
+        height: 1px;
+    }
 
-#social-links {
-    margin: 205px 0 0 0;
-    width: 350px;
-    height: 40px;
-}
+    #djdan-logo {
+        margin: 115px 0 0 0;
+        width: 350px;
+        height: 79px;
+        background-size: 186px;
+    }
 
-#fb {
-    width: 30px;
-    height: 30px;
-    background-size: 29px;
-}
+    #social-links {
+        margin: 205px 0 0 0;
+        width: 350px;
+        height: 40px;
+    }
 
-#ig {
-    width: 30px;
-    height: 30px;
-    background-size: 29px;
-}
+    #fb {
+        width: 30px;
+        height: 30px;
+        background-size: 29px;
+    }
 
-#sc {
-    width: 40px;
-    height: 30px;
-    background-size: 39.5px;
-}
+    #ig {
+        width: 30px;
+        height: 30px;
+        background-size: 29px;
+    }
 
-#tw {
-    width: 35.1px;
-    height: 30px;
-    background-size: 34.4px;
-}
+    #sc {
+        width: 40px;
+        height: 30px;
+        background-size: 39.5px;
+    }
 
-#menu-cont {
-    margin: 246.6px 0 0 0;
-    font-size: 15px;
-    letter-spacing: .05rem;
-    width: 350px;
-    height: 20%;
-}
+    #tw {
+        width: 35.1px;
+        height: 30px;
+        background-size: 34.4px;
+    }
 
-ul {
-    width: 146px;
-    border-width: 1px;
-    border-radius: 3.6px;
-}
+    #menu-cont {
+        margin: 246.6px 0 0 0;
+        font-size: 15px;
+        letter-spacing: .05rem;
+        width: 350px;
+        height: 20%;
+    }
 
-li {
-    padding-top: 6px;
-    margin-bottom: 6px;
-    border-width: 1px;
-}
+    ul {
+        width: 146px;
+        border-width: 1px;
+        border-radius: 3.6px;
+    }
 
-.vert-line-menu {
-    width: 1px;
-    height: 21.2px;
-}
+    li {
+        padding-top: 6px;
+        margin-bottom: 6px;
+        border-width: 1px;
+    }
 
-.horiz-line-menu {
-    width: 350px;
-    height: 1px;
-}
+    .vert-line-menu {
+        width: 1px;
+        height: 21.2px;
+    }
 
-/*PAGES/SECTIONS//////////////////////////////////////////*/
+    .horiz-line-menu {
+        width: 350px;
+        height: 1px;
+    }
 
-#bio-pg,
-#tour-pg,
-#gallery-pg,
-#music-pg,
-#contact-pg {
-    margin: 19.9px auto 0 auto;
-    width: 350px;
-    border-radius: 7.3px;
-}
+    /*PAGES/SECTIONS//////////////////////////////////////////*/
+    #bio-pg,
+    #tour-pg,
+    #gallery-pg,
+    #music-pg,
+    #contact-pg {
+        margin: 19.9px auto 0 auto;
+        width: 350px;
+        border-radius: 7.3px;
+    }
 
-.close-button {
-    left: 318px;
-    margin: 5px;
-    font-size: 21px;
-}
+    .close-button {
+        left: 318px;
+        margin: 5px;
+        font-size: 21px;
+    }
 
-#dan-logo-sm {
-    margin: -16.8px 0 0 11.3px;
-    width: 82.7px;
-    height: 33.6px;
-    background-size: 81.2px;
-}
+    #dan-logo-sm {
+        margin: -16.8px 0 0 11.3px;
+        width: 82.7px;
+        height: 33.6px;
+        background-size: 81.2px;
+    }
 
-.sect-header {
-    top: 2.2px;
-    margin: -7px 10px 10px 102.1px;
-    font-size: 18.6px;
-}
+    .sect-header {
+        top: 2.2px;
+        margin: -7px 10px 10px 102.1px;
+        font-size: 18.6px;
+    }
 
-hr {
-    margin: 10px;
-    height: 1px;
-}
+    hr {
+        margin: 10px;
+        height: 1px;
+    }
 
-/*BIO CONTENT//////////////////////////////////////////*/
+    /*BIO CONTENT//////////////////////////////////////////*/
+    #bio-cont,
+    #tour-cont,
+    #gallery-cont,
+    #music-cont,
+    #contact-cont {
+        flex-direction: row;
+        padding: 5px 10px 10px 10px !important;
+        width: 329px;
+        font-size: 14px;
+    }
 
-#bio-cont,
-#tour-cont,
-#gallery-cont,
-#music-cont,
-#contact-cont {
-    flex-direction: row;
-    padding: 5px 10px 10px 10px !important;
-    width: 329px;
-    font-size: 14px;
-}
+    #dan-pic {
+        order: 0;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 8px
+    }
 
-#dan-pic {
-    order: 0;
-    width: 100%;
-    height: 300px;
-    margin-bottom: 8px
-}
-    
-#dan-bio {
-    order: 1;
-    width: 100%;      
-}
+    #dan-bio {
+        order: 1;
+        width: 100%;
+    }
 
-/*
+    /*
 #dan-bio-text {
     letter-spacing: -.20px !important;
 }
 */
+    /*TOUR CONTENT//////////////////////////////////////////*/
+    iframe {
+        width: 475.8px;
+        height: 585.6px;
+    }
 
-/*TOUR CONTENT//////////////////////////////////////////*/
+    /*MUSIC CONTENT//////////////////////////////////////////*/
+    #sound-text {
+        margin-top: -7.6px;
+    }
 
-iframe {
-    width: 475.8px;
-    height: 585.6px;
-}
+    #soundcloud-link {
+        width: 160px;
+        height: 80.5px;
+        background-size: 100.3px;
+    }
 
-/*MUSIC CONTENT//////////////////////////////////////////*/
+    #mixcloud-link {
+        width: 160px;
+        height: 80.5px;
+        background-size: 144.2px;
+    }
 
-#sound-text {
-    margin-top: -7.6px;
-}
+    #beatport-link {
+        width: 160px;
+        height: 80.5px;
+        background-size: 126px;
+    }
 
-#soundcloud-link {
-    width: 160px;
-    height: 80.5px;
-    background-size: 100.3px;
-}
+    #traxsource-link {
+        width: 160px;
+        height: 80.5px;
+        background-size: 159px;
+    }
 
-#mixcloud-link {
-    width: 160px;
-    height: 80.5px;
-    background-size: 144.2px;
-}
+    #spotify-link {
+        width: 160px;
+        height: 80.5px;
+        background-size: 126.6px;
+    }
 
-#beatport-link {
-    width: 160px;
-    height: 80.5px;
-    background-size: 126px;
-}
+    #discogs-link {
+        width: 160px;
+        height: 80.5px;
+        background-size: 88.5px;
+    }
 
-#traxsource-link {
-    width: 160px;
-    height: 80.5px;
-    background-size: 159px;
-}
+    /*CONTACT CONTENT//////////////////////////////////////////*/
+    #contact-info {
+        width: 100%;
+        margin-bottom: 8px
+    }
 
-#spotify-link {
-    width: 160px;
-    height: 80.5px;
-    background-size: 126.6px;
-}
+    form {
+        width: 100%;
+        padding: 8px;
+        border-width: 1px;
+    }
 
-#discogs-link {
-    width: 160px;
-    height: 80.5px;
-    background-size: 88.5px;
-}
+    button {
+        margin: 5px 0 0 78px;
+        font-size: 14px;
+        border-width: 1px;
+    }
 
-/*CONTACT CONTENT//////////////////////////////////////////*/
+    input {
+        width: 50%;
+        margin: 0 0 11px 62px;
+    }
 
-#contact-info {
-    width: 100%;
-    margin-bottom: 8px
-}
+    textarea {
+        width: 50%;
+        height: 80px;
+        margin: 0 0 0 62.2px;
+    }
 
-form {
-    width: 100%;
-    padding: 8px;
-    border-width: 1px;
-}
-
-button {
-    margin: 5px 0 0 78px;
-    font-size: 14px;
-    border-width: 1px;
-}
-
-input {
-    width: 50%;
-    margin: 0 0 11px 62px;
-}
-
-textarea {
-    width: 50%;
-    height: 80px;
-    margin: 0 0 0 62.2px;
-}
-
-label {
-    width: 49.7px;
-}
+    label {
+        width: 49.7px;
+    }
 }
