@@ -465,10 +465,17 @@ iframe {
 
 /*CONTACT CONTENT//////////////////////////////////////////*/
 
+/*
+#contact-info-text {
+    text-decoration: none !important;
+}
+*/
+
 #contact-info {
     order: 0;
 /*    width: 23vw;*/
     width: 314px;
+    
 }
 
 form {
