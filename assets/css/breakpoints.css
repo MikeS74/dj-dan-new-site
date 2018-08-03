@@ -336,12 +336,12 @@ li {
 #music-pg,
 #contact-pg {
     margin: 19.9px auto 0 auto;
-    width: 380px;
+    width: 350px;
     border-radius: 7.3px;
 }
 
 .close-button {
-    left: 347px;
+    left: 318px;
     margin: 5px;
     font-size: 21px;
 }
@@ -373,7 +373,7 @@ hr {
 #contact-cont {
     flex-direction: row;
     padding: 5px 10px 10px 10px !important;
-    width: 360px;
+    width: 329px;
     font-size: 14px;
 }
 
@@ -409,37 +409,37 @@ iframe {
 }
 
 #soundcloud-link {
-    width: 170px;
+    width: 160px;
     height: 80.5px;
     background-size: 100.3px;
 }
 
 #mixcloud-link {
-    width: 170px;
+    width: 160px;
     height: 80.5px;
     background-size: 144.2px;
 }
 
 #beatport-link {
-    width: 170px;
+    width: 160px;
     height: 80.5px;
     background-size: 126px;
 }
 
 #traxsource-link {
-    width: 170px;
+    width: 160px;
     height: 80.5px;
-    background-size: 169px;
+    background-size: 159px;
 }
 
 #spotify-link {
-    width: 170px;
+    width: 160px;
     height: 80.5px;
     background-size: 126.6px;
 }
 
 #discogs-link {
-    width: 170px;
+    width: 160px;
     height: 80.5px;
     background-size: 88.5px;
 }
