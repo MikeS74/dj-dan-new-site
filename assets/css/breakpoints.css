@@ -1,90 +1,92 @@
+@media (max-width: 768px) {
 .home-container {
-    width: 47.5vw;
+    width: 650px;
 }
 
 .fortyfive-logo {
-    margin: 1.51vw 0 0 0;
-    width: 6vw;
-    height: 6vw;
+    margin: 26px 0 0 0;
+    width: 81.5px;
+    height: 81.5px;
     border-width: 1px;
-    background-size: 6.6vw;
+    background-size: 90px;
 }
 
 .vert-line {
-    margin: 7.7vw 0 0 0;
+    margin: 110px 0 0 0;
     width: 1px;
-    height: 2.5vw;
+     height: 29px;
 }
 
 .horiz-line {
-    margin: 10.2vw 0 0 0;
-    width: 35vw;
+    margin: 139px 0 0 0;
+    width: 478.2px;
     height: 1px;
 }
 
 #djdan-logo {
-    margin: 11.5vw 0 0 0;
-    width: 35vw;
-    height: 8vw;
-    background-size: 18.6vw;
+    margin: 157px 0 0 0;
+    width: 478.2px;
+    height: 108px;
+    background-size: 254px;
 }
 
 #social-links {
-    margin: 20.5vw 0 0 0;
-    width: 35vw;
-    height: 4vw;
+    margin: 280px 0 0 0;
+    width: 478.2px;
+    height: 55px;
 }
 
 #fb {
-    width: 3vw;
-    height: 3vw;
-    background-size: 3vw;
+    width: 41px;
+    height: 41px;
+    background-size: 40px;
 }
 
 #ig {
-    width: 3vw;
-    height: 3vw;
-    background-size: 3vw;
+    width: 41px;
+    height: 41px;
+    background-size: 40px;
 }
 
 #sc {
-    width: 4vw;
-    height: 3vw;
-    background-size: 4vw;
+    width: 55px;
+    height: 41px;
+    background-size: 54px;
 }
 
 #tw {
-    width: 3.5vw;
-    height: 3vw;
-    background-size: 3.5vw;
+    width: 48px;
+    height: 41px;
+    background-size: 47px;
 }
 
 #menu-cont {
-    margin: 24.7vw 0 0 0;
-    font-size: 1.4vw;
+    margin: 337px 0 0 0;
+    font-size: 19px;
     letter-spacing: .05rem;
-    width: 35vw;
+    width: 478.2px;
     height: 20%;
 }
 
 ul {
-    width: 14vw;
+    width: 191.5px;
     border-width: 1px;
+    border-radius: 5px;
 }
 
 li {
-    padding-top: .6vw;
-    margin-bottom: .6vw;
+    padding-top: 8.2px;
+    margin-bottom: 8.2px;
     border-width: 1px;
 }
 
 .vert-line-menu {
     width: 1px;
-    height: 2.5vw;
+    height: 29px;
 }
 
 .horiz-line-menu {
-    width: 35vw;
+    width: 478.2px;
     height: 1px;
 }
 
@@ -95,32 +97,32 @@ li {
 #gallery-pg,
 #music-pg,
 #contact-pg {
-    margin: 2vw auto 0 auto;
-    width: 50vw;
-    border-radius: .8vw;
+    margin: 27.2px auto 0 auto;
+    width: 683px;
+    border-radius: 10px;
 }
 
 .close-button {
-    left: 47vw;
-    margin: .5vw;
-    font-size: 1.79vw;
+    left: 642px;
+    margin: 6.8px;
+    font-size: 24px;
 }
 
 #dan-logo-sm {
-    margin: -1.7vw 0 0 1.2vw;
-    width: 8.2vw;
-    height: 3.4vw;
-    background-size: 8.19vw
+    margin: -23px 0 0 15.5px;
+    width: 112px;
+    height: 46px;
+    background-size: 111px;
 }
 
 .sect-header {
-    top: .2vw;
-    margin: -.7vw 1vw 1vw 10.2vw;
-    font-size: 1.9vw
+    top: 3px;
+    margin: -9.5px 13.7px 13.7px 139.5px;
+    font-size: 25.5px;
 }
 
 hr {
-    margin: 1vw 1vw 1vw 1vw;
+    margin: 13.7px;
     height: 1px;
 }
 
@@ -132,103 +134,104 @@ hr {
 #music-cont,
 #contact-cont {
     flex-direction: row;
-    padding: .5vw 1vw 1vw 1vw !important;
-    width: 48vw;
-    font-size: 1.18vw;
+    padding: 6.8px 13.7px 13.7px 13.7px !important;
+    width: 655px;
+    font-size: 16px;
 }
 
 #dan-pic {
-    width: 20vw;
-    height: 32vw;
+    width: 273px;
+    height: 438px;
 }
 
 #dan-bio {
-    width: 26vw;
+    width: 355px;
 }
 
 #dan-bio-text {
-    letter-spacing: -.02vw !important;
-    line-height: 1.2vw !important;
+    letter-spacing: -.27px !important;
+    line-height: 16px !important;
 }
 
 /*TOUR CONTENT//////////////////////////////////////////*/
 
 iframe {
-    width: 47.9vw;
-    height: 60vw;
+    width: 650px;
+    height: 800px;
 }
 
 /*MUSIC CONTENT//////////////////////////////////////////*/
 
 #sound-text {
-    margin-top: -.8vw
+    margin-top: -10.5px;
 }
 
 #soundcloud-link {
-    width: 24vw;
-    height: 8vw;
-    background-size: 10.1vw;
+    width: 325px;
+    height: 110px;
+    background-size: 137px;
 }
 
 #mixcloud-link {
-    width: 24vw;
-    height: 8vw;
-    background-size: 14.43vw;
+    width: 325px;
+    height: 110px;
+    background-size: 197px;
 }
 
 #beatport-link {
-    width: 24vw;
-    height: 8vw;
-    background-size: 12.6vw;
+    width: 325px;
+    height: 110px;
+    background-size: 172px;
 }
 
 #traxsource-link {
-    width: 24vw;
-    height: 8vw;
-    background-size: 17.9vw;
+    width: 325px;
+    height: 110px;
+    background-size: 244px;
 }
 
 #spotify-link {
-    width: 24vw;
-    height: 8vw;
-    background-size: 12.7vw;
+    width: 325px;
+    height: 110px;
+    background-size: 173px;
 }
 
 #discogs-link {
-    width: 24vw;
-    height: 8vw;
-    background-size: 8.9vw;
+    width: 325px;
+    height: 110px;
+    background-size: 121px;
 }
 
 /*CONTACT CONTENT//////////////////////////////////////////*/
 
 #contact-info {
-    width: 23vw;
+    width: 314px;
 }
 
 form {
-    width: 22vw;
-    padding: .8vw;
+    width: 300.5px;
+    padding: 11px;
     border-width: 1px;
 }
 
 button {
-    margin: 0 0 0 6.3vw;
-    font-size: 1.1vw;
+    margin: 0 0 0 86px;
+    font-size: 15px;
     border-width: 1px;
 }
 
 input {
-    width: 15vw;
-    margin: 0 0 1.1vw 5vw;
+    width: 205px;
+    margin: 0 0 15px 68px;
 }
 
 textarea {
-    width: 15vw;
-    height: 8vw;
-    margin: -1vw 0 0 6.2vw;
+    width: 205px;
+    height: 109px;
+    margin: -13px 0 0 85px;
 }
 
 label {
-    width: 5vw;
+    width: 68px;
+}
 }
