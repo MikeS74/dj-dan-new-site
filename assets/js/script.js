@@ -11,10 +11,16 @@ $(document).ready(function () {
     $("li").hide();
 
     setTimeout(function () {
+        $("#bkgd").css("visibility", "visible");
+        $(".home-container").css("visibility", "visible");
+        $(".section-cont").css("visibility", "visible");
+    }, 250);
+    
+    setTimeout(function () {
         $(".home-container").fadeIn(2000);
         $("#bkgd").fadeIn(2000);
-    }, 500);
     menuFadeIns();
+    }, 750);
 
     //RETURN HOME FUNCTION
     function homeContFadeIn() {
