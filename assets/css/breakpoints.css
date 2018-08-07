@@ -232,8 +232,9 @@
 }
 
 @media (max-width: 576px) {
+    
     #bkgd {
-        height: 360vh;
+        height: 2900px;
     }
 
     .home-container {
@@ -436,6 +437,11 @@
         width: 160px;
         height: 80.5px;
         background-size: 88.5px;
+    }
+    
+/*    GALLERY CONTENT*/
+    #gallery-cont {
+        overflow: scroll;
     }
 
     /*CONTACT CONTENT//////////////////////////////////////////*/

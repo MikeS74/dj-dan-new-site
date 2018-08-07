@@ -474,27 +474,44 @@ iframe {
 }
 */
 
+#contact-cont {
+/*justify-content: flex-start;*/
+}
+
 #contact-info {
     order: 0;
 /*    width: 23vw;*/
     width: 314px;
-    
 }
 
-form {
-    order: 1;
-/*    width: 22vw;*/
-    width: 300.5px;
-/*    padding: .8vw;*/
-    padding: 11px;
-    border-style: solid;
+#send-msg-box {
+    order: 2;
+    display: inline-flex;
+    justify-content: center;
+    width: 652px !important;
+        border-style: solid;
     border-width: 1px;
     border-color: #b3b3b3;
 }
 
+#email-signup {
+    order: 1;
+    margin-bottom: 10px;
+    width: 300.5px !important;
+}
+
+form {
+    
+/*    width: 22vw;*/
+/*    width: 630px;*/
+/*    padding: .8vw;*/
+    padding: 11px;
+
+}
+
 button {
 /*    margin: 0 0 0 6.3vw;*/
-    margin: 0 0 0 86px;
+    margin: 0 0 0 80px;
     background-color: #1f1f1f;
     color: #b3b3b3 !important;
     font-family: 'Maven Pro', sans-serif;
@@ -509,16 +526,16 @@ input {
 /*    width: 15vw;*/
     width: 205px;
 /*    margin: 0 0 1.1vw 5vw;*/
-    margin: 0 0 15px 68px;
+    margin: 0 0 15px 80px;
 }
 
 textarea {
 /*    width: 15vw;*/
-    width: 205px;
+    width: 400px;
 /*    height: 8vw;*/
     height: 109px;
 /*    margin: -1vw 0 0 6.2vw;*/
-    margin: -13px 0 0 85px;
+    margin: 0 0 11px 80px;
 }
 
 label {
@@ -526,3 +543,4 @@ label {
     width: 68px;
     position: absolute;
 }
+
