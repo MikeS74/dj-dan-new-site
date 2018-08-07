@@ -15,11 +15,11 @@ $(document).ready(function () {
         $(".home-container").css("visibility", "visible");
         $(".section-cont").css("visibility", "visible");
     }, 250);
-    
+
     setTimeout(function () {
         $(".home-container").fadeIn(2000);
         $("#bkgd").fadeIn(2000);
-    menuFadeIns();
+        menuFadeIns();
     }, 750);
 
     //RETURN HOME FUNCTION
@@ -79,6 +79,13 @@ $(document).ready(function () {
         $("#gallery-pg").delay("slow").fadeIn(500);
         homeContFadeOut();
     });
+    
+    //GALLERY DISPLAY IS CHANGED TO TRUE IF CLICKED ON
+    var galDisp = false;
+    $("#gallery-pg").on("click", function () {
+        galDisp = true;
+        console.log("Bootstrap gallery is visible.");
+    });
 
     $("#music-link").on("click", function () {
         $("#music-pg").delay("slow").fadeIn(500);
@@ -101,9 +108,18 @@ $(document).ready(function () {
     $(".close-button").on("click", function () {
         mainCloseActions();
     });
+    
     //ESC KEY CLOSE
     $(document).on("keyup", function (e) {
-        if (e.keyCode === 27) {
+        if (e.keyCode === 27 && galDisp === true) {
+            galDisp = false;
+            console.log("blah 1");
+        }
+        else if (galDisp === false) {
+            mainCloseActions();
+            console.log("blah 2");
+        }
+        else {
             mainCloseActions();
         }
     });
@@ -128,7 +144,7 @@ $(document).ready(function () {
         })
         .fail(function (jqxhr, settings, exception) {
             console.log("FAILED");
-                $("#tour-cont").html( '<p style="text-align: center">Oops, looks like the Songkick Tourbox failed to load.</p><p style="text-align: center">Please refresh the page or try again later.</p>' );
+            $("#tour-cont").html('<p style="text-align: center">Oops, looks like the Songkick Tourbox failed to load.</p><p style="text-align: center">Please refresh the page or try again later.</p>');
         });
 
 });
