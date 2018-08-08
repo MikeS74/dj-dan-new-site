@@ -23,6 +23,7 @@ body {
 }
 
 /*HOME PAGE ELEMENTS//////////////////////////////////////////*/
+
 .home-container {
     visibility: hidden;
     z-index: 0;
@@ -30,18 +31,14 @@ body {
     flex-direction: row;
     justify-content: center;
     margin: 0 auto 0 auto;
-/*    width: 47.5vw;*/
     width: 650px;
     height: 100%;
 }
 
 .fortyfive-logo {
     position: absolute;
-/*    margin: 1.51vw 0 0 0;*/
     margin: 26px 0 0 0;
-/*    width: 6vw;*/
     width: 81.5px;
-/*    height: 6vw;*/
     height: 81.5px;
     border-radius: 50%;
     border-style: solid;
@@ -49,26 +46,21 @@ body {
     border-color: #b3b3b3;
     background-image: url('../img/fortyfive-icon2.png');
     background-repeat: no-repeat;
-/*    background-size: 6.6vw;*/
     background-size: 90px;
     background-position: center;
 }
 
 .vert-line {
     position: absolute;
-/*    margin: 7.7vw 0 0 0;*/
     margin: 110px 0 0 0;
     width: 1px;
-/*    height: 2.5vw;*/
     height: 29px;
     background-color: #b3b3b3;
 }
 
 .horiz-line {
     position: absolute;
-/*    margin: 10.2vw 0 0 0;*/
     margin: 139px 0 0 0;
-/*    width: 35vw;*/
     width: 478.2px;
     height: 1px;
     background-color: #b3b3b3;
@@ -76,15 +68,11 @@ body {
 
 #djdan-logo {
     position: absolute;
-/*    margin: 11.5vw 0 0 0;*/
     margin: 157px 0 0 0;
-/*    width: 35vw;*/
     width: 478.2px;
-/*    height: 8vw;*/
     height: 108px;
     background-image: url('../img/dan-logo1.png');
     background-repeat: no-repeat;
-/*    background-size: 18.6vw;*/
     background-size: 254px;
     background-position: center;
 }
@@ -93,83 +81,59 @@ body {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
-/*    margin: 20.5vw 0 0 0;*/
     margin: 280px 0 0 0;
-/*    width: 35vw;*/
     width: 478.2px;
-/*    height: 4vw;*/
     height: 55px;
 }
 
 #fb {
     order: 0;
-/*    width: 3vw;*/
     width: 41px;
-/*    height: 3vw;*/
     height: 41px;
     background-image: url('../img/fb-icon1.png');
     background-repeat: no-repeat;
-/*    background-size: 3vw;*/
     background-size: 40px;
     background-position: center;
 }
 
 #ig {
     order: 1;
-/*    width: 3vw;*/
     width: 41px;
-/*    height: 3vw;*/
     height: 41px;
     background-image: url('../img/ig-icon1.png');
     background-repeat: no-repeat;
-/*    background-size: 3vw;*/
     background-size: 40px;
     background-position: center;
 }
 
 #sc {
     order: 2;
-/*    width: 4vw;*/
     width: 55px;
-/*    height: 3vw;*/
     height: 41px;
     background-image: url('../img/sc-icon1.png');
     background-repeat: no-repeat;
-/*    background-size: 4vw;*/
     background-size: 54px;
     background-position: center;
 }
 
 #tw {
     order: 3;
-/*    width: 3.5vw;*/
     width: 48px;
-/*    height: 3vw;*/
     height: 41px;
     background-image: url('../img/tw-icon1.png');
     background-repeat: no-repeat;
-/*    background-size: 3.5vw;*/
     background-size: 47px;
     background-position: center;
 }
 
 #menu-cont {
-    /*    font-family: 'Miriam Libre', sans-serif;*/
-    /*    font-family: 'Amiko', sans-serif;*/
-    /*    font-family: 'Palanquin', sans-serif;*/
-    /*    font-family: 'Fjalla One', sans-serif;*/
     font-family: 'Quicksand', sans-serif;
-    /*    font-family: 'Cabin', sans-serif;*/
-    /*    font-family: 'Maven Pro', sans-serif;*/
     font-weight: 500;
     position: absolute;
-/*    margin: 24.7vw 0 0 0;*/
     margin: 337px 0 0 0;
-/*    font-size: 1.4vw;*/
     font-size: 19px;
     letter-spacing: .05rem;
     display: inline-flex;
-/*    width: 35vw;*/
     width: 478.2px;
     height: 20%;
 }
@@ -185,7 +149,6 @@ body {
 }
 
 ul {
-/*    width: 14vw;*/
     width: 191.5px;
     border: solid;
     border-width: 1px;
@@ -194,9 +157,7 @@ ul {
 }
 
 li {
-/*    padding-top: .6vw;*/
     padding-top: 8.2px;
-/*    margin-bottom: .6vw;*/
     margin-bottom: 8.2px;
     text-align: center;
     width: 100%;
@@ -224,7 +185,6 @@ li p:hover {
     position: relative;
     margin: 0 auto 0 auto;
     width: 1px;
-/*    height: 2.5vw;*/
     height: 29px;
     background-color: #b3b3b3;
 }
@@ -232,7 +192,6 @@ li p:hover {
 .horiz-line-menu {
     position: absolute;
     margin: 0;
-/*    width: 35vw;*/
     width: 478.2px;
     height: 1px;
     background-color: #b3b3b3;
@@ -253,23 +212,17 @@ li p:hover {
 #contact-pg {
     z-index: 1;
     position: absolute;
-/*    margin: 2vw auto 0 auto;*/
     margin: 27.2px auto 0 auto;
-/*    width: 50vw;*/
     width: 683px;
     height: auto;
-/*    border-radius: .8vw;*/
     border-radius: 10px;
     background-color: #1f1f1f;
 }
 
 .close-button {
     position: relative;
-/*    left: 47vw;*/
     left: 642px;
-/*    margin: .5vw;*/
     margin: 6.8px;
-/*    font-size: 1.79vw;*/
     font-size: 24px;
     border-radius: 50%;
     cursor: pointer;
@@ -281,39 +234,25 @@ li p:hover {
 
 #dan-logo-sm {
     position: absolute;
-/*    margin: -1.7vw 0 0 1.2vw;*/
     margin: -23px 0 0 15.5px;
-/*    width: 8.2vw;*/
     width: 112px;
-/*    height: 3.4vw;*/
     height: 46px;
     background-image: url(../img/dj-dan-icon-small.png);
     background-repeat: no-repeat;
-/*    background-size: 8.19vw;*/
     background-size: 111px;
 }
 
 .sect-header {
     position: relative;
-/*    top: .2vw;*/
     top: 3px;
-    /*    font-family: 'Miriam Libre', sans-serif;*/
     font-family: 'Amiko', sans-serif;
-    /*    font-family: 'Palanquin', sans-serif;*/
-    /*    font-family: 'Fjalla One', sans-serif;*/
-    /*    font-family: 'Quicksand', sans-serif;*/
-    /*    font-family: 'Cabin', sans-serif;*/
-    /*    font-family: 'Maven Pro', sans-serif;*/
     font-weight: 500;
-/*    margin: -.7vw 1vw 1vw 10.2vw;*/
     margin: -9.5px 13.7px 13.7px 139.5px;
-/*    font-size: 1.9vw;*/
     font-size: 25.5px;
 }
 
 hr {
     border: none;
-/*    margin: 1vw 1vw 1vw 1vw;*/
     margin: 13.7px;
     height: 1px;
     background-color: #b3b3b3;
@@ -330,28 +269,16 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-/*    padding: .5vw 1vw 1vw 1vw !important;*/
     padding: 6.8px 13.7px 13.7px 13.7px !important;
-/*    width: 48vw;*/
     width: 655px;
-
-    /*    font-family: 'Miriam Libre', sans-serif;*/
-    /*    font-family: 'Amiko', sans-serif;*/
-    /*    font-family: 'Palanquin', sans-serif;*/
-    /*    font-family: 'Fjalla One', sans-serif;*/
-    /*    font-family: 'Quicksand', sans-serif;*/
-    /*    font-family: 'Cabin', sans-serif;*/
     font-family: 'Maven Pro', sans-serif;
-/*    font-size: 1.18vw;*/
     font-size: 16px;
     font-weight: 300;
 }
 
 #dan-pic {
     order: 0;
-/*    width: 20vw;*/
     width: 273px;
-/*    height: 32vw;*/
     height: 438px;
     background-image: url(../img/dan-bio-pic1.png);
     background-repeat: no-repeat;
@@ -360,23 +287,18 @@ hr {
 
 #dan-bio {
     order: 1;
-/*    width: 26vw;*/
     width: 355px;
 }
 
 #dan-bio-text {
-/*    letter-spacing: -.02vw !important;*/
     letter-spacing: -.27px !important;
-/*    line-height: 1.2vw !important;*/
     line-height: 16px !important;
 }
 
 /*TOUR CONTENT//////////////////////////////////////////*/
 
 iframe {
-/*    width: 47.9vw;*/
     width: 650px;
-/*    height: 60vw;*/
     height: 800px;
 }
 
@@ -384,103 +306,73 @@ iframe {
 
 #sound-text {
     position: absolute;
-/*    margin-top: -.8vw;*/
     margin-top: -10.5px;
 }
 
 #soundcloud-link {
     order: 0;
-/*    width: 24vw;*/
     width: 325px;
-/*    height: 8vw;*/
     height: 110px;
     background-image: url('../img/soundcloud-logo2.png');
     background-repeat: no-repeat;
-/*    background-size: 10.1vw;*/
     background-size: 137px;
     background-position: center;
 }
 
 #mixcloud-link {
     order: 1;
-/*    width: 24vw;*/
     width: 325px;
-/*    height: 8vw;*/
     height: 110px;
     background-image: url('../img/mixcloud-logo2.png');
     background-repeat: no-repeat;
-/*    background-size: 14.43vw;*/
     background-size: 197px;
     background-position: center;
 }
 
 #beatport-link {
     order: 2;
-/*    width: 24vw;*/
     width: 325px;
-/*    height: 8vw;*/
     height: 110px;
     background-image: url('../img/beatport-logo2.png');
     background-repeat: no-repeat;
-/*    background-size: 12.6vw;*/
     background-size: 172px;
     background-position: center;
 }
 
 #traxsource-link {
     order: 3;
-/*    width: 24vw;*/
     width: 325px;
-/*    height: 8vw;*/
     height: 110px;
     background-image: url('../img/traxsource-logo2.png');
     background-repeat: no-repeat;
-/*    background-size: 17.9vw;*/
     background-size: 244px;
     background-position: center;
 }
 
 #spotify-link {
     order: 4;
-/*    width: 24vw;*/
     width: 325px;
-/*    height: 8vw;*/
     height: 110px;
     background-image: url('../img/spotify-logo2.png');
     background-repeat: no-repeat;
-/*    background-size: 12.7vw;*/
     background-size: 173px;
     background-position: center;
 }
 
 #discogs-link {
     order: 5;
-/*    width: 24vw;*/
     width: 325px;
-/*    height: 8vw;*/
     height: 110px;
     background-image: url('../img/discogs-logo2.png');
     background-repeat: no-repeat;
-/*    background-size: 8.9vw;*/
     background-size: 121px;
     background-position: center;
 }
 
 /*CONTACT CONTENT//////////////////////////////////////////*/
 
-/*
-#contact-info-text {
-    text-decoration: none !important;
-}
-*/
-
-#contact-cont {
-/*justify-content: flex-start;*/
-}
-
 #contact-info {
     order: 0;
-/*    width: 23vw;*/
     width: 314px;
 }
 
@@ -489,7 +381,7 @@ iframe {
     display: inline-flex;
     justify-content: center;
     width: 652px !important;
-        border-style: solid;
+    border-style: solid;
     border-width: 1px;
     border-color: #b3b3b3;
 }
@@ -501,21 +393,14 @@ iframe {
 }
 
 form {
-    
-/*    width: 22vw;*/
-/*    width: 630px;*/
-/*    padding: .8vw;*/
     padding: 11px;
-
 }
 
 button {
-/*    margin: 0 0 0 6.3vw;*/
     margin: 0 0 0 80px;
     background-color: #1f1f1f;
     color: #b3b3b3 !important;
     font-family: 'Maven Pro', sans-serif;
-/*    font-size: 1.1vw;*/
     font-size: 15px;
     border-width: 1px;
     border-style: solid;
@@ -523,24 +408,17 @@ button {
 }
 
 input {
-/*    width: 15vw;*/
     width: 205px;
-/*    margin: 0 0 1.1vw 5vw;*/
     margin: 0 0 15px 80px;
 }
 
 textarea {
-/*    width: 15vw;*/
     width: 400px;
-/*    height: 8vw;*/
     height: 109px;
-/*    margin: -1vw 0 0 6.2vw;*/
     margin: 0 0 11px 80px;
 }
 
 label {
-/*    width: 5vw;*/
     width: 68px;
     position: absolute;
 }
-

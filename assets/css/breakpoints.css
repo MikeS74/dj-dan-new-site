@@ -148,7 +148,6 @@
 
     #dan-bio-text {
         letter-spacing: -.20px !important;
-        /*    line-height: 11.7px !important;*/
     }
 
     /*TOUR CONTENT//////////////////////////////////////////*/
@@ -202,18 +201,18 @@
     #contact-info {
         width: 230px;
     }
-    
-    #email-signup {
-    width: 245px !important;
-}
 
-#send-msg-box {
-    
-    display: inline-flex;
-    justify-content: center;
-    width: 478px !important;
-}
-    
+    #email-signup {
+        width: 245px !important;
+    }
+
+    #send-msg-box {
+
+        display: inline-flex;
+        justify-content: center;
+        width: 478px !important;
+    }
+
     form {
         width: 245px;
         padding: 8px;
@@ -243,13 +242,12 @@
 }
 
 @media (max-width: 576px) {
-    
-/*
+
+    /*
     #bkgd {
         height: 2900px;
     }
 */
-
     .home-container {
         width: 100%;
     }
@@ -400,11 +398,6 @@
         width: 100%;
     }
 
-    /*
-#dan-bio-text {
-    letter-spacing: -.20px !important;
-}
-*/
     /*TOUR CONTENT//////////////////////////////////////////*/
     iframe {
         width: 475.8px;
@@ -451,8 +444,8 @@
         height: 80.5px;
         background-size: 88.5px;
     }
-    
-/*    GALLERY CONTENT*/
+
+    /*    GALLERY CONTENT*/
     #gallery-cont {
         overflow: scroll;
     }
