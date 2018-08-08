@@ -119,11 +119,9 @@ $(document).ready(function () {
     $(document).on("keyup", function (e) {
         if (e.keyCode === 27 && galDisp === true) {
             galDisp = false;
-            //            console.log("blah 1");
-        } else if (galDisp === false) {
+        } else if (e.keyCode === 27 && galDisp === false) {
             mainCloseActions();
-            //            console.log("blah 2");
-        } else {
+        } else if (e.keyCode === 27) {
             mainCloseActions();
         }
     });
