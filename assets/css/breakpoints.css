@@ -244,9 +244,11 @@
 
 @media (max-width: 576px) {
     
+/*
     #bkgd {
         height: 2900px;
     }
+*/
 
     .home-container {
         width: 100%;

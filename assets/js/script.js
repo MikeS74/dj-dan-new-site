@@ -78,8 +78,11 @@ $(document).ready(function () {
     $("#gal-link").on("click", function () {
         $("#gallery-pg").delay("slow").fadeIn(500);
         homeContFadeOut();
+        if ($(window).width() < 576) {
+            $("#bkgd").css("height", "2900px");
+        }
     });
-    
+
     //GALLERY DISPLAY IS CHANGED TO TRUE IF CLICKED ON
     var galDisp = false;
     $("#gallery-pg").on("click", function () {
@@ -102,24 +105,25 @@ $(document).ready(function () {
         menuFadeIns();
         $("#bio-pg, #tour-pg, #gallery-pg, #music-pg, #contact-pg").fadeOut(500);
         homeContFadeIn();
+        if ($(window).width() < 576) {
+            $("#bkgd").css("height", "1440px");
+        }
     }
 
     //MOUSE CLICK CLOSE
     $(".close-button").on("click", function () {
         mainCloseActions();
     });
-    
+
     //ESC KEY CLOSE
     $(document).on("keyup", function (e) {
         if (e.keyCode === 27 && galDisp === true) {
             galDisp = false;
-            console.log("blah 1");
-        }
-        else if (galDisp === false) {
+            //            console.log("blah 1");
+        } else if (galDisp === false) {
             mainCloseActions();
-            console.log("blah 2");
-        }
-        else {
+            //            console.log("blah 2");
+        } else {
             mainCloseActions();
         }
     });
@@ -140,10 +144,10 @@ $(document).ready(function () {
     //TOUR CALENDAR SCRIPT
     $.getScript("//widget.songkick.com/306806/widget.js")
         .done(function (script, textStatus) {
-            console.log("Songkick Script Loaded!");
+            console.log("Songkick script loaded!");
         })
         .fail(function (jqxhr, settings, exception) {
-            console.log("FAILED");
+            console.log("Songkick script failed to load.");
             $("#tour-cont").html('<p style="text-align: center">Oops, looks like the Songkick Tourbox failed to load.</p><p style="text-align: center">Please refresh the page or try again later.</p>');
         });
 
