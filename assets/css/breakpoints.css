@@ -202,9 +202,20 @@
     #contact-info {
         width: 230px;
     }
+    
+    #email-signup {
+    width: 245px !important;
+}
 
+#send-msg-box {
+    
+    display: inline-flex;
+    justify-content: center;
+    width: 478px !important;
+}
+    
     form {
-        width: 220px;
+        width: 245px;
         padding: 8px;
         border-width: 1px;
     }
@@ -216,14 +227,14 @@
     }
 
     input {
-        width: 150px;
-        margin: 0 0 11px 49.7px;
+        width: 170px;
+        margin: 0 0 11px 62.2px;
     }
 
     textarea {
-        width: 150px;
-        height: 80px;
-        margin: -9.5px 0 0 62.2px;
+        width: 220px;
+        height: 120px;
+        margin: 0 0 -5px 62.2px;
     }
 
     label {
@@ -457,20 +468,20 @@
     }
 
     button {
-        margin: 5px 0 0 78px;
+        margin: 0 0 0 62.2px;
         font-size: 14px;
         border-width: 1px;
     }
 
     input {
-        width: 50%;
+        width: 75%;
         margin: 0 0 11px 62px;
     }
 
     textarea {
-        width: 50%;
+        width: 75%;
         height: 80px;
-        margin: 0 0 0 62.2px;
+        margin: 0 0 8px 62.2px;
     }
 
     label {
