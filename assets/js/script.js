@@ -68,18 +68,24 @@ $(document).ready(function () {
     $("#bio-link").on("click", function () {
         $("#bio-pg").delay("slow").fadeIn(500);
         homeContFadeOut();
+        if ($(window).width() < 576) {
+            $("body").css("height", "1100px");
+        }
     });
 
     $("#tour-link").on("click", function () {
         $("#tour-pg").delay("slow").fadeIn(500);
         homeContFadeOut();
+        if ($(window).width() < 576) {
+            $("body").css("height", "1100px");
+        }
     });
 
     $("#gal-link").on("click", function () {
         $("#gallery-pg").delay("slow").fadeIn(500);
         homeContFadeOut();
         if ($(window).width() < 576) {
-            $("#bkgd").css("height", "2900px");
+            $("body").css("height", "2900px");
         }
     });
 
@@ -106,7 +112,7 @@ $(document).ready(function () {
         $("#bio-pg, #tour-pg, #gallery-pg, #music-pg, #contact-pg").fadeOut(500);
         homeContFadeIn();
         if ($(window).width() < 576) {
-            $("#bkgd").css("height", "1440px");
+            $("body").css("height", "850px");
         }
     }
 
