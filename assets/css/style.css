@@ -276,8 +276,18 @@ hr {
     font-weight: 300;
 }
 
+#bio-cont {
+    display: grid;
+    grid-template-columns: 237px 355px;
+    grid-template-rows: 25%;
+    
+}
+
 #dan-pic {
-    order: 0;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
     width: 273px;
     height: 438px;
     background-image: url(../img/dan-bio-pic1.png);
@@ -285,22 +295,45 @@ hr {
     background-size: cover;
 }
 
-#dan-bio {
-    order: 1;
-    width: 355px;
-}
-
-#dan-bio-text {
+#dan-bio-text1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
     letter-spacing: -.27px !important;
     line-height: 16px !important;
+    width: 355px;
+    height: 320px;
+}
+
+#accomp {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    font-size: 14px;
+    width: 255px;
+    padding: 8px;
+    margin: 0 0 12px 0;
+    border: solid;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    position: relative;
+    left: 40px;
+}
+
+#dan-bio-text2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    letter-spacing: -.27px !important;
+    line-height: 16px !important;
+    width: 273px;
+    position: relative;
+    top: 130px;
 }
 
 /*TOUR CONTENT//////////////////////////////////////////*/
 
-iframe {
-    width: 650px;
-    height: 800px;
-}
+
 
 /*MUSIC CONTENT//////////////////////////////////////////*/
 

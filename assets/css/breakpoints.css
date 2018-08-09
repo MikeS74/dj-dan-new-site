@@ -136,25 +136,43 @@
         width: 479.5px;
         font-size: 14px;
     }
+    
+    #bio-cont {
+        display: inline-flex;
+    }
 
     #dan-pic {
+        order: 0;
         width: 200px;
         height: 320.6px;
     }
 
-    #dan-bio {
-        width: 260px;
-    }
+#dan-bio-text1 {
+    order: 1;
+    width: 260px;
+}
 
-    #dan-bio-text {
-        letter-spacing: -.20px !important;
-    }
+#accomp {
+    order: 2;
+    font-size: 12px;
+    width: 182px;
+    margin: 8px 0 8px 0;
+    position: relative;
+    left: 0;
+    top: 5px
+}
+
+#dan-bio-text2 {
+    order: 3;
+    width: 260px;
+    height: 80px;
+    position: relative;
+    top: 47px
+}
 
     /*TOUR CONTENT//////////////////////////////////////////*/
-    iframe {
-        width: 475.8px;
-        height: 585.6px;
-    }
+
+    
 
     /*MUSIC CONTENT//////////////////////////////////////////*/
     #sound-text {
@@ -385,6 +403,10 @@
         width: 329px;
         font-size: 14px;
     }
+    
+        #bio-cont {
+        display: inline-flex;
+    }
 
     #dan-pic {
         order: 0;
@@ -393,16 +415,32 @@
         margin-bottom: 8px
     }
 
-    #dan-bio {
-        order: 1;
-        width: 100%;
-    }
+ #dan-bio-text1 {
+    order: 1;
+    width: 100%;
+}
+
+#accomp {
+    order: 2;
+    font-size: 12px;
+    width: 100%;
+    margin: 0 0 12px 0;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+#dan-bio-text2 {
+    order: 3;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 0;
+}
 
     /*TOUR CONTENT//////////////////////////////////////////*/
-    iframe {
-        width: 475.8px;
-        height: 585.6px;
-    }
+
+    
 
     /*MUSIC CONTENT//////////////////////////////////////////*/
     #sound-text {
