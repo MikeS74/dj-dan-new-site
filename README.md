@@ -1,10 +1,10 @@
 # DJ Dan Official Site
-**This is the non-server build - test version**
+**This is the non-server build / test version**
 
 The final version can be found here:
 #### https://github.com/MikeS74/dj-dan-new-site-server
 ---
-The official fan site for American House legend DJ Dan. Clean, minimal layout which includes all his social links, bio, tour dates, contact info, etc.
+The official fan site of American House legend DJ Dan. Clean & minimal layout with a simple UI. Includes all of DJ Dan's social links, bio, tour dates, contact info, etc.
 
 ## Technologies Used
 
